@@ -1,52 +1,146 @@
 # free-vscode-icon
 
+An IntelliJ IDEA plugin that brings beautiful VS Code-style file and folder icons to your JetBrains IDE. Supports multiple icon themes including VSCode Icons and Material Icons.
+
 ![Build](https://github.com/yuyu1815/free-vscode-icon/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get familiar with the [template documentation][template].
-- [ ] Adjust the [pluginGroup](./gradle.properties) and [pluginName](./gradle.properties), as well as the [id](./src/main/resources/META-INF/plugin.xml) and [sources package](./src/main/kotlin).
-- [ ] Adjust the plugin description in `README` (see [Tips][docs:plugin-description])
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the `MARKETPLACE_ID` in the above README badges. You can obtain it once the plugin is published to JetBrains Marketplace.
-- [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
-- [ ] Configure the [CODECOV_TOKEN](https://docs.codecov.com/docs/quick-start) secret for automated test coverage reports on PRs
+## Features
 
-<!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+- **Multiple Icon Themes**
+  - **VSCode Icons**: Based on the popular [vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons) project
+  - **Material Icons**: Beautiful Material Design-inspired icons
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+- **Comprehensive Coverage**
+  - Support for 100+ file extensions
+  - Special icons for popular frameworks and tools
+  - Custom folder icons for common directories
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
-<!-- Plugin description end -->
+- **Easy Configuration**
+  - Simple project-level settings
+  - Enable/disable custom icons per project
+  - Switch themes instantly without restart
 
 ## Installation
 
-- Using the IDE built-in plugin system:
+### Using JetBrains Marketplace
 
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "free-vscode-icon"</kbd> >
-  <kbd>Install</kbd>
+1. Open your JetBrains IDE
+2. Go to <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd>
+3. Click on <kbd>Marketplace</kbd>
+4. Search for "free-vscode-icon"
+5. Click <kbd>Install</kbd>
 
-- Using JetBrains Marketplace:
+### Manual Installation
 
-  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
+1. Download the latest release from [GitHub Releases](https://github.com/yuyu1815/free-vscode-icon/releases/latest)
+2. Go to <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd>
+3. Click the gear icon ⚙️
+4. Select <kbd>Install plugin from disk...</kbd>
+5. Choose the downloaded file
 
-  You can also download the [latest release](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID/versions) from JetBrains Marketplace and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+## Configuration
 
-- Manually:
+After installing the plugin:
 
-  Download the [latest release](https://github.com/yuyu1815/free-vscode-icon/releases/latest) and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+1. Go to <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Tools</kbd> > <kbd>Icon Theme Settings</kbd>
+2. Select your preferred theme from the dropdown:
+   - **VSCode Icons**: Traditional VS Code style icons
+   - **Material Icons**: Material Design inspired icons
+3. Check/uncheck "Enable custom file icons" to toggle the plugin
+4. Click <kbd>Apply</kbd> to save your changes
 
+## Supported Icons
+
+### File Extensions
+- Programming languages: `.js`, `.ts`, `.py`, `.java`, `.kt`, `.go`, `.rs`, etc.
+- Markup & Style: `.html`, `.css`, `.scss`, `.json`, `.xml`, etc.
+- Frameworks: `.vue`, `.jsx`, `.tsx`, `.svelte`, etc.
+- Config files: `.yaml`, `.toml`, `.ini`, `.env`, etc.
+
+### Folders
+- Common folders: `src`, `dist`, `build`, `test`, etc.
+- Framework-specific: `node_modules`, `.vscode`, etc.
+
+## Development
+
+### Building the Plugin
+
+```bash
+./gradlew buildPlugin
+```
+
+### Running Tests
+
+```bash
+./gradlew test
+```
+
+### Generating Test Files
+
+```bash
+# Generate test files for all themes
+node converter/regenerate_all_test_files.js
+
+# Generate VSCode Icons test files only
+node converter/generate_vscode_test_files.js
+
+# Generate Material Icons test files only
+node converter/generate_material_test_files.js
+
+# Generate snapshot of test files
+node converter/generate_icon_test_snapshot.js
+```
+
+## Credits
+
+### Icons
+
+This plugin uses icons from the following projects:
+
+- **[vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons)**
+  - License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+  - Copyright © 2016 Roberto Huertas
+
+- **[PKief/vscode-material-icon-theme](https://github.com/PKief/vscode-material-icon-theme)**
+  - License: [MIT](https://opensource.org/licenses/MIT)
+  - Copyright © PKief
+  - Material Design Icons for Visual Studio Code (30M+ installations)
+
+### License
+
+This plugin is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+```
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit to:
+  - vscode-icons project (https://github.com/vscode-icons/vscode-icons)
+  - vscode-material-icon-theme project (https://github.com/PKief/vscode-material-icon-theme)
+  - This plugin
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license
+
+```
+
+**Icon Sources**
+- VSCode Icons: [vscode-icons/vscode-icons repository](https://github.com/vscode-icons/vscode-icons)
+- Material Icons: [PKief/vscode-material-icon-theme repository](https://github.com/PKief/vscode-material-icon-theme) (included in `/converter/vscode-material-icon-theme`)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Support
+
+If you encounter any issues or have suggestions, please [open an issue](https://github.com/yuyu1815/free-vscode-icon/issues).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for version history and changes.
 
 ---
-Plugin based on the [IntelliJ Platform Plugin Template][template].
 
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
-[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation
+Made with ❤️ by [yuyu1815](https://github.com/yuyu1815)

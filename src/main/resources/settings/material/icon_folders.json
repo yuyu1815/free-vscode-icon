@@ -1,0 +1,1465 @@
+{
+  "folder-rust": [
+    "rust"
+  ],
+  "folder-robot": [
+    "bot",
+    "bots",
+    "robot",
+    "robots",
+    "agent",
+    "agents"
+  ],
+  "folder-src": [
+    "src",
+    "srcs",
+    "source",
+    "sources",
+    "code"
+  ],
+  "folder-dist": [
+    "dist",
+    "out",
+    "output",
+    "outputs",
+    "build",
+    "builds",
+    "release",
+    "bin",
+    "distribution",
+    "built",
+    "compiled"
+  ],
+  "folder-css": [
+    "css",
+    "stylesheet",
+    "stylesheets",
+    "style",
+    "styles"
+  ],
+  "folder-sass": [
+    "sass",
+    "scss"
+  ],
+  "folder-television": [
+    "tv",
+    "television"
+  ],
+  "folder-desktop": [
+    "desktop",
+    "display"
+  ],
+  "folder-console": [
+    "console",
+    "xbox",
+    "ps4",
+    "ps5",
+    "switch",
+    "game",
+    "games"
+  ],
+  "folder-images": [
+    "images",
+    "image",
+    "imgs",
+    "img",
+    "icons",
+    "icon",
+    "icos",
+    "ico",
+    "figures",
+    "figure",
+    "figs",
+    "fig",
+    "screenshot",
+    "screenshots",
+    "screengrab",
+    "screengrabs",
+    "pic",
+    "pics",
+    "picture",
+    "pictures",
+    "photo",
+    "photos",
+    "photograph",
+    "photographs",
+    "texture",
+    "textures"
+  ],
+  "folder-scripts": [
+    "script",
+    "scripts",
+    "scripting"
+  ],
+  "folder-node": [
+    "node",
+    "nodejs",
+    "node_modules"
+  ],
+  "folder-javascript": [
+    "js",
+    "javascript",
+    "javascripts",
+    "cjs",
+    "mjs"
+  ],
+  "folder-json": [
+    "json",
+    "jsons",
+    "jsonc",
+    "jsonl"
+  ],
+  "folder-font": [
+    "font",
+    "fonts",
+    "typeface",
+    "typefaces"
+  ],
+  "folder-bower": [
+    "bower_components"
+  ],
+  "folder-test": [
+    "test",
+    "tests",
+    "testing",
+    "snapshots",
+    "spec",
+    "specs",
+    "testfiles"
+  ],
+  "folder-directive": [
+    "directive",
+    "directives"
+  ],
+  "folder-jinja": [
+    "jinja",
+    "jinja2",
+    "j2"
+  ],
+  "folder-markdown": [
+    "markdown",
+    "md"
+  ],
+  "folder-pdm": [
+    "pdm-plugins",
+    "pdm-build"
+  ],
+  "folder-php": [
+    "php"
+  ],
+  "folder-phpmailer": [
+    "phpmailer"
+  ],
+  "folder-sublime": [
+    "sublime"
+  ],
+  "folder-docs": [
+    "doc",
+    "docs",
+    "document",
+    "documents",
+    "documentation",
+    "post",
+    "posts",
+    "article",
+    "articles",
+    "wiki",
+    "news",
+    "blog",
+    "knowledge",
+    "diary",
+    "note",
+    "notes"
+  ],
+  "folder-gh-workflows": [
+    "github/workflows"
+  ],
+  "folder-git": [
+    "git",
+    "patches",
+    "githooks",
+    "submodules"
+  ],
+  "folder-github": [
+    "github"
+  ],
+  "folder-gitea": [
+    "gitea"
+  ],
+  "folder-gitlab": [
+    "gitlab"
+  ],
+  "folder-forgejo": [
+    "forgejo"
+  ],
+  "folder-vscode": [
+    "vscode",
+    "vscode-test"
+  ],
+  "folder-views": [
+    "view",
+    "views",
+    "screen",
+    "screens",
+    "page",
+    "pages",
+    "public_html",
+    "html"
+  ],
+  "folder-vue": [
+    "vue",
+    "components"
+  ],
+  "folder-vuepress": [
+    "vuepress"
+  ],
+  "folder-expo": [
+    "expo",
+    "expo-shared"
+  ],
+  "folder-config": [
+    "cfg",
+    "cfgs",
+    "conf",
+    "confs",
+    "config",
+    "configs",
+    "configuration",
+    "configurations",
+    "setting",
+    "settings",
+    "META-INF",
+    "option",
+    "options",
+    "pref",
+    "prefs",
+    "preference",
+    "preferences",
+    "props",
+    "properties"
+  ],
+  "folder-i18n": [
+    "i18n",
+    "internationalization",
+    "lang",
+    "langs",
+    "language",
+    "languages",
+    "locale",
+    "locales",
+    "l10n",
+    "localization",
+    "translation",
+    "translate",
+    "translations",
+    "tx"
+  ],
+  "folder-components": [
+    "components",
+    "widget",
+    "widgets",
+    "fragments"
+  ],
+  "folder-verdaccio": [
+    "verdaccio"
+  ],
+  "folder-aurelia": [
+    "aurelia_project"
+  ],
+  "folder-resource": [
+    "resource",
+    "resources",
+    "res",
+    "asset",
+    "assets",
+    "static",
+    "report",
+    "reports"
+  ],
+  "folder-lib": [
+    "lib",
+    "libs",
+    "library",
+    "libraries",
+    "vendor",
+    "vendors",
+    "third-party",
+    "lib64"
+  ],
+  "folder-theme": [
+    "themes",
+    "theme",
+    "color",
+    "colors",
+    "colour",
+    "colours",
+    "design",
+    "designs",
+    "palette",
+    "palettes"
+  ],
+  "folder-webpack": [
+    "webpack"
+  ],
+  "folder-global": [
+    "global"
+  ],
+  "folder-public": [
+    "public",
+    "www",
+    "wwwroot",
+    "web",
+    "website",
+    "websites",
+    "site",
+    "browser",
+    "browsers"
+  ],
+  "folder-include": [
+    "inc",
+    "include",
+    "includes",
+    "partial",
+    "partials",
+    "inc64"
+  ],
+  "folder-docker": [
+    "docker",
+    "dockerfiles",
+    "dockerhub"
+  ],
+  "folder-ngrx-store": [
+    "store"
+  ],
+  "folder-ngrx-effects": [
+    "effects"
+  ],
+  "folder-ngrx-state": [
+    "states",
+    "state"
+  ],
+  "folder-ngrx-reducer": [
+    "reducers",
+    "reducer"
+  ],
+  "folder-ngrx-actions": [
+    "actions"
+  ],
+  "folder-ngrx-entities": [
+    "entities"
+  ],
+  "folder-ngrx-selectors": [
+    "selectors"
+  ],
+  "folder-redux-reducer": [
+    "reducers",
+    "reducer",
+    "redux-reducer",
+    "redux-reducers"
+  ],
+  "folder-redux-actions": [
+    "actions"
+  ],
+  "folder-redux-toolkit": [
+    "redux",
+    "redux-toolkit"
+  ],
+  "folder-redux-selector": [
+    "selectors",
+    "selector"
+  ],
+  "folder-redux-store": [
+    "store",
+    "stores"
+  ],
+  "folder-react-components": [
+    "components",
+    "react",
+    "jsx",
+    "reactjs",
+    "react-components"
+  ],
+  "folder-astro": [
+    "astro"
+  ],
+  "folder-database": [
+    "db",
+    "data",
+    "database",
+    "databases",
+    "sql"
+  ],
+  "folder-migrations": [
+    "migrations",
+    "migration"
+  ],
+  "folder-log": [
+    "log",
+    "logs",
+    "logging"
+  ],
+  "folder-target": [
+    "target"
+  ],
+  "folder-temp": [
+    "temp",
+    "tmp",
+    "cached",
+    "cache"
+  ],
+  "folder-aws": [
+    "aws",
+    "azure",
+    "gcp"
+  ],
+  "folder-audio": [
+    "aud",
+    "auds",
+    "audio",
+    "audios",
+    "music",
+    "song",
+    "songs",
+    "sound",
+    "sounds",
+    "voice",
+    "voices",
+    "recordings",
+    "playlist",
+    "playlists"
+  ],
+  "folder-video": [
+    "vid",
+    "vids",
+    "video",
+    "videos",
+    "movie",
+    "movies",
+    "media"
+  ],
+  "folder-kubernetes": [
+    "kubernetes",
+    "k8s"
+  ],
+  "folder-import": [
+    "import",
+    "imports",
+    "imported"
+  ],
+  "folder-export": [
+    "export",
+    "exports",
+    "exported"
+  ],
+  "folder-wakatime": [
+    "wakatime"
+  ],
+  "folder-circleci": [
+    "circleci"
+  ],
+  "folder-wordpress": [
+    "wordpress-org",
+    "wp-content"
+  ],
+  "folder-gradle": [
+    "gradle"
+  ],
+  "folder-coverage": [
+    "coverage",
+    "nyc-output",
+    "nyc_output",
+    "e2e",
+    "it",
+    "integration-test",
+    "integration-tests"
+  ],
+  "folder-class": [
+    "class",
+    "classes",
+    "model",
+    "models",
+    "schemas",
+    "schema"
+  ],
+  "folder-other": [
+    "other",
+    "others",
+    "misc",
+    "miscellaneous",
+    "extra",
+    "extras",
+    "etc"
+  ],
+  "folder-lua": [
+    "lua"
+  ],
+  "folder-turborepo": [
+    "turbo"
+  ],
+  "folder-typescript": [
+    "typescript",
+    "ts",
+    "typings",
+    "@types",
+    "types",
+    "cts",
+    "mts"
+  ],
+  "folder-graphql": [
+    "graphql",
+    "gql"
+  ],
+  "folder-routes": [
+    "routes",
+    "router",
+    "routers",
+    "navigation",
+    "navigations",
+    "routing"
+  ],
+  "folder-ci": [
+    "ci"
+  ],
+  "folder-eslint": [
+    "eslint",
+    "eslint-plugin",
+    "eslint-plugins",
+    "eslint-config",
+    "eslint-configs"
+  ],
+  "folder-benchmark": [
+    "benchmark",
+    "benchmarks",
+    "bench",
+    "performance",
+    "perf",
+    "profiling",
+    "measure",
+    "measures",
+    "measurement"
+  ],
+  "folder-messages": [
+    "messages",
+    "messaging",
+    "forum",
+    "chat",
+    "chats",
+    "conversation",
+    "conversations",
+    "dialog",
+    "dialogs"
+  ],
+  "folder-less": [
+    "less"
+  ],
+  "folder-gulp": [
+    "gulp",
+    "gulp-tasks",
+    "gulpfile.js",
+    "gulpfile.mjs",
+    "gulpfile.ts",
+    "gulpfile.babel.js",
+    "gulpfiles"
+  ],
+  "folder-python": [
+    "python",
+    "pycache",
+    "pytest_cache"
+  ],
+  "folder-sandbox": [
+    "sandbox",
+    "sandboxes",
+    "playground",
+    "playgrounds"
+  ],
+  "folder-scons": [
+    "scons",
+    "sconf_temp",
+    "scons_cache"
+  ],
+  "folder-mojo": [
+    "mojo"
+  ],
+  "folder-moon": [
+    "moon"
+  ],
+  "folder-debug": [
+    "debug",
+    "debugger",
+    "debugging"
+  ],
+  "folder-fastlane": [
+    "fastlane"
+  ],
+  "folder-plugin": [
+    "plugin",
+    "plugins",
+    "mod",
+    "mods",
+    "modding",
+    "extension",
+    "extensions",
+    "addon",
+    "addons",
+    "addin",
+    "addins",
+    "module",
+    "modules"
+  ],
+  "folder-middleware": [
+    "middleware",
+    "middlewares"
+  ],
+  "folder-controller": [
+    "controller",
+    "controllers",
+    "controls",
+    "service",
+    "services",
+    "provider",
+    "providers",
+    "handler",
+    "handlers"
+  ],
+  "folder-ansible": [
+    "ansible"
+  ],
+  "folder-server": [
+    "server",
+    "servers",
+    "backend",
+    "backends",
+    "inventory",
+    "inventories",
+    "infrastructure",
+    "infra"
+  ],
+  "folder-client": [
+    "client",
+    "clients",
+    "frontend",
+    "frontends",
+    "pwa",
+    "spa"
+  ],
+  "folder-tasks": [
+    "tasks",
+    "tickets"
+  ],
+  "folder-android": [
+    "android"
+  ],
+  "folder-ios": [
+    "ios"
+  ],
+  "folder-ui": [
+    "presentation",
+    "gui",
+    "ui",
+    "ux"
+  ],
+  "folder-upload": [
+    "uploads",
+    "upload"
+  ],
+  "folder-download": [
+    "downloads",
+    "download",
+    "downloader",
+    "downloaders"
+  ],
+  "folder-tools": [
+    "tools",
+    "toolkit",
+    "toolkits",
+    "toolbox",
+    "toolboxes",
+    "tooling",
+    "devtools",
+    "kit",
+    "kits"
+  ],
+  "folder-helper": [
+    "helpers",
+    "helper"
+  ],
+  "folder-serverless": [
+    "serverless"
+  ],
+  "folder-api": [
+    "api",
+    "apis",
+    "restapi"
+  ],
+  "folder-app": [
+    "app",
+    "apps",
+    "application",
+    "applications"
+  ],
+  "folder-apollo": [
+    "apollo",
+    "apollo-client",
+    "apollo-cache",
+    "apollo-config"
+  ],
+  "folder-archive": [
+    "arc",
+    "arcs",
+    "archive",
+    "archives",
+    "archival"
+  ],
+  "folder-backup": [
+    "bkp",
+    "bkps",
+    "bak",
+    "baks",
+    "backup",
+    "backups",
+    "back-up",
+    "back-ups",
+    "history",
+    "histories"
+  ],
+  "folder-batch": [
+    "batch",
+    "batchs",
+    "batches"
+  ],
+  "folder-buildkite": [
+    "buildkite"
+  ],
+  "folder-cluster": [
+    "cluster",
+    "clusters"
+  ],
+  "folder-command": [
+    "command",
+    "commands",
+    "commandline",
+    "cmd",
+    "cli",
+    "clis"
+  ],
+  "folder-constant": [
+    "constant",
+    "constants",
+    "const",
+    "consts"
+  ],
+  "folder-container": [
+    "container",
+    "containers",
+    "devcontainer"
+  ],
+  "folder-content": [
+    "content",
+    "contents"
+  ],
+  "folder-context": [
+    "context",
+    "contexts"
+  ],
+  "folder-core": [
+    "core"
+  ],
+  "folder-delta": [
+    "delta",
+    "deltas",
+    "changes"
+  ],
+  "folder-dump": [
+    "dump",
+    "dumps"
+  ],
+  "folder-examples": [
+    "demo",
+    "demos",
+    "example",
+    "examples",
+    "sample",
+    "samples",
+    "sample-data"
+  ],
+  "folder-environment": [
+    "env",
+    "envs",
+    "environment",
+    "environments",
+    "venv"
+  ],
+  "folder-functions": [
+    "func",
+    "funcs",
+    "function",
+    "functions",
+    "lambda",
+    "lambdas",
+    "logic",
+    "math",
+    "maths",
+    "calc",
+    "calcs",
+    "calculation",
+    "calculations",
+    "composable",
+    "composables"
+  ],
+  "folder-generator": [
+    "generator",
+    "generators",
+    "generated",
+    "cfn-gen",
+    "gen",
+    "gens",
+    "auto"
+  ],
+  "folder-hook": [
+    "hook",
+    "hooks"
+  ],
+  "folder-trigger": [
+    "trigger",
+    "triggers"
+  ],
+  "folder-job": [
+    "job",
+    "jobs"
+  ],
+  "folder-keys": [
+    "key",
+    "keys",
+    "token",
+    "tokens",
+    "jwt",
+    "secret",
+    "secrets"
+  ],
+  "folder-layout": [
+    "layout",
+    "layouts"
+  ],
+  "folder-mail": [
+    "mail",
+    "mails",
+    "email",
+    "emails",
+    "smtp",
+    "mailers"
+  ],
+  "folder-mappings": [
+    "mappings",
+    "mapping"
+  ],
+  "folder-meta": [
+    "meta",
+    "metadata"
+  ],
+  "folder-changesets": [
+    "changesets",
+    "changeset"
+  ],
+  "folder-packages": [
+    "package",
+    "packages",
+    "pkg",
+    "pkgs",
+    "serverpackages",
+    "devpackages",
+    "dependencies"
+  ],
+  "folder-shared": [
+    "shared",
+    "common"
+  ],
+  "folder-shader": [
+    "glsl",
+    "hlsl",
+    "shader",
+    "shaders"
+  ],
+  "folder-stack": [
+    "stack",
+    "stacks"
+  ],
+  "folder-template": [
+    "template",
+    "templates",
+    "github/ISSUE_TEMPLATE",
+    "github/PULL_REQUEST_TEMPLATE"
+  ],
+  "folder-utils": [
+    "util",
+    "utils",
+    "utility",
+    "utilities"
+  ],
+  "folder-supabase": [
+    "supabase"
+  ],
+  "folder-private": [
+    "private"
+  ],
+  "folder-linux": [
+    "linux",
+    "linuxbsd",
+    "unix",
+    "wsl",
+    "ubuntu",
+    "deb",
+    "debian",
+    "deepin",
+    "centos",
+    "popos",
+    "mint"
+  ],
+  "folder-windows": [
+    "windows",
+    "win",
+    "win32",
+    "windows11",
+    "windows10",
+    "windowsxp",
+    "windowsnt",
+    "win11",
+    "win10",
+    "winxp",
+    "winnt"
+  ],
+  "folder-macos": [
+    "macos",
+    "mac",
+    "osx",
+    "DS_Store",
+    "iPhone",
+    "iPad",
+    "iPod",
+    "macbook",
+    "macbook-air",
+    "macosx",
+    "apple"
+  ],
+  "folder-error": [
+    "error",
+    "errors",
+    "err",
+    "errs",
+    "crash",
+    "crashes"
+  ],
+  "folder-event": [
+    "event",
+    "events"
+  ],
+  "folder-secure": [
+    "auth",
+    "authentication",
+    "secure",
+    "security",
+    "cert",
+    "certs",
+    "certificate",
+    "certificates",
+    "ssl",
+    "cipher",
+    "cypher",
+    "tls"
+  ],
+  "folder-custom": [
+    "custom",
+    "customs"
+  ],
+  "folder-mock": [
+    "draft",
+    "drafts",
+    "mock",
+    "mocks",
+    "fixture",
+    "fixtures",
+    "concept",
+    "concepts",
+    "sketch",
+    "sketches"
+  ],
+  "folder-syntax": [
+    "syntax",
+    "syntaxes",
+    "spellcheck",
+    "spellcheckers"
+  ],
+  "folder-vm": [
+    "vm",
+    "vms"
+  ],
+  "folder-stylus": [
+    "stylus"
+  ],
+  "folder-flow": [
+    "flow-typed"
+  ],
+  "folder-rules": [
+    "rule",
+    "rules",
+    "validation",
+    "validations",
+    "validator",
+    "validators"
+  ],
+  "folder-review": [
+    "review",
+    "reviews",
+    "revisal",
+    "revisals",
+    "reviewed",
+    "preview",
+    "previews"
+  ],
+  "folder-animation": [
+    "anim",
+    "anims",
+    "animation",
+    "animations",
+    "animated",
+    "motion",
+    "motions",
+    "transition",
+    "transitions",
+    "easing",
+    "easings"
+  ],
+  "folder-guard": [
+    "guard",
+    "guards"
+  ],
+  "folder-prisma": [
+    "prisma",
+    "prisma/schema"
+  ],
+  "folder-pipe": [
+    "pipe",
+    "pipes",
+    "pipeline",
+    "pipelines"
+  ],
+  "folder-interceptor": [
+    "interceptor",
+    "interceptors"
+  ],
+  "folder-svg": [
+    "svg",
+    "svgs",
+    "vector",
+    "vectors"
+  ],
+  "folder-vuex-store": [
+    "store",
+    "stores"
+  ],
+  "folder-nuxt": [
+    "nuxt"
+  ],
+  "folder-vue-directives": [
+    "directives"
+  ],
+  "folder-terraform": [
+    "terraform"
+  ],
+  "folder-mobile": [
+    "mobile",
+    "mobiles",
+    "portable",
+    "portability",
+    "phone",
+    "phones"
+  ],
+  "folder-stencil": [
+    "stencil"
+  ],
+  "folder-firebase": [
+    "firebase"
+  ],
+  "folder-firestore": [
+    "firestore",
+    "cloud-firestore",
+    "firebase-firestore"
+  ],
+  "folder-cloud-functions": [
+    "cloud-functions",
+    "cloudfunctions",
+    "firebase-cloud-functions",
+    "firebase-cloudfunctions"
+  ],
+  "folder-svelte": [
+    "svelte",
+    "svelte-kit"
+  ],
+  "folder-update": [
+    "update",
+    "updates",
+    "upgrade",
+    "upgrades"
+  ],
+  "folder-intellij": [
+    "idea"
+  ],
+  "folder-azure-pipelines": [
+    "azure-pipelines",
+    "azure-pipelines-ci"
+  ],
+  "folder-mjml": [
+    "mjml"
+  ],
+  "folder-admin": [
+    "admin",
+    "admins",
+    "manager",
+    "managers",
+    "moderator",
+    "moderators"
+  ],
+  "folder-jupyter": [
+    "jupyter",
+    "notebook",
+    "notebooks",
+    "ipynb"
+  ],
+  "folder-scala": [
+    "scala"
+  ],
+  "folder-connection": [
+    "connection",
+    "connections",
+    "integration",
+    "integrations",
+    "remote",
+    "remotes"
+  ],
+  "folder-quasar": [
+    "quasar"
+  ],
+  "folder-next": [
+    "next"
+  ],
+  "folder-dal": [
+    "dal",
+    "data-access",
+    "data-access-layer"
+  ],
+  "folder-cobol": [
+    "cobol"
+  ],
+  "folder-yarn": [
+    "yarn"
+  ],
+  "folder-husky": [
+    "husky"
+  ],
+  "folder-storybook": [
+    "storybook",
+    "stories"
+  ],
+  "folder-base": [
+    "base",
+    "bases"
+  ],
+  "folder-cart": [
+    "cart",
+    "shopping-cart",
+    "shopping",
+    "shop"
+  ],
+  "folder-home": [
+    "home",
+    "start",
+    "main",
+    "landing"
+  ],
+  "folder-project": [
+    "project",
+    "projects",
+    "proj",
+    "projs"
+  ],
+  "folder-prompts": [
+    "prompt",
+    "prompts"
+  ],
+  "folder-interface": [
+    "interface",
+    "interfaces"
+  ],
+  "folder-netlify": [
+    "netlify"
+  ],
+  "folder-enum": [
+    "enum",
+    "enums"
+  ],
+  "folder-contract": [
+    "pact",
+    "pacts",
+    "contract",
+    "contracts",
+    "contract-testing",
+    "contract-test",
+    "contract-tests"
+  ],
+  "folder-helm": [
+    "helm",
+    "helmchart",
+    "helmcharts"
+  ],
+  "folder-queue": [
+    "queue",
+    "queues",
+    "bull",
+    "mq"
+  ],
+  "folder-vercel": [
+    "vercel",
+    "now"
+  ],
+  "folder-cypress": [
+    "cypress"
+  ],
+  "folder-decorators": [
+    "decorator",
+    "decorators"
+  ],
+  "folder-java": [
+    "java"
+  ],
+  "folder-resolver": [
+    "resolver",
+    "resolvers"
+  ],
+  "folder-angular": [
+    "angular"
+  ],
+  "folder-unity": [
+    "unity"
+  ],
+  "folder-pdf": [
+    "pdf",
+    "pdfs"
+  ],
+  "folder-proto": [
+    "protobuf",
+    "protobufs",
+    "proto",
+    "protos"
+  ],
+  "folder-plastic": [
+    "plastic"
+  ],
+  "folder-gamemaker": [
+    "gamemaker",
+    "gamemaker2"
+  ],
+  "folder-mercurial": [
+    "hg",
+    "hghooks",
+    "hgext"
+  ],
+  "folder-godot": [
+    "godot",
+    "godot-cpp"
+  ],
+  "folder-lottie": [
+    "lottie",
+    "lotties",
+    "lottiefiles"
+  ],
+  "folder-taskfile": [
+    "taskfile",
+    "taskfiles"
+  ],
+  "folder-drizzle": [
+    "drizzle"
+  ],
+  "folder-cloudflare": [
+    "cloudflare"
+  ],
+  "folder-seeders": [
+    "seeds",
+    "seeders",
+    "seed",
+    "seeding"
+  ],
+  "folder-store": [
+    "store",
+    "stores"
+  ],
+  "folder-bicep": [
+    "bicep"
+  ],
+  "folder-snapcraft": [
+    "snap",
+    "snapcraft"
+  ],
+  "folder-development": [
+    "dev",
+    "development"
+  ],
+  "folder-flutter": [
+    "flutter"
+  ],
+  "folder-snippet": [
+    "snippet",
+    "snippets"
+  ],
+  "folder-element": [
+    "element",
+    "elements"
+  ],
+  "folder-src-tauri": [
+    "src-tauri"
+  ],
+  "folder-favicon": [
+    "favicon",
+    "favicons"
+  ],
+  "folder-features": [
+    "feature",
+    "features",
+    "feat",
+    "feats"
+  ],
+  "folder-lefthook": [
+    "lefthook",
+    "lefthook-local"
+  ],
+  "folder-bloc": [
+    "bloc",
+    "cubit",
+    "blocs",
+    "cubits"
+  ],
+  "folder-powershell": [
+    "powershell",
+    "ps",
+    "ps1"
+  ],
+  "folder-repository": [
+    "repository",
+    "repositories",
+    "repo",
+    "repos"
+  ],
+  "folder-luau": [
+    "luau"
+  ],
+  "folder-obsidian": [
+    "obsidian"
+  ],
+  "folder-trash": [
+    "trash"
+  ],
+  "folder-cline": [
+    "cline_docs"
+  ],
+  "folder-liquibase": [
+    "liquibase"
+  ],
+  "folder-dart": [
+    "dart",
+    "dart_tool",
+    "dart_tools"
+  ],
+  "folder-zeabur": [
+    "zeabur"
+  ],
+  "folder-kusto": [
+    "kusto",
+    "kql"
+  ],
+  "folder-policy": [
+    "policy",
+    "policies"
+  ],
+  "folder-attachment": [
+    "attachment",
+    "attachments"
+  ],
+  "folder-bibliography": [
+    "bibliography",
+    "bibliographies",
+    "book",
+    "books"
+  ],
+  "folder-link": [
+    "link",
+    "links"
+  ],
+  "folder-pytorch": [
+    "pytorch",
+    "torch"
+  ],
+  "folder-blender": [
+    "blender",
+    "blender-assets",
+    "blender-files",
+    "blender-project",
+    "blender-models"
+  ],
+  "folder-atom": [
+    "atoms",
+    "atom"
+  ],
+  "folder-molecule": [
+    "molecules",
+    "molecule"
+  ],
+  "folder-organism": [
+    "organisms",
+    "organism"
+  ],
+  "folder-claude": [
+    ".claude"
+  ],
+  "folder-cursor": [
+    ".cursor"
+  ],
+  "folder-gemini-ai": [
+    ".gemini",
+    "gemini",
+    "gemini-ai",
+    "geminiai"
+  ],
+  "folder-input": [
+    "input",
+    "inputs",
+    "io",
+    "in"
+  ],
+  "folder-salt": [
+    "salt",
+    "saltstack"
+  ],
+  "folder-simulations": [
+    "simulations",
+    "simulation",
+    "sim",
+    "sims"
+  ],
+  "folder-metro": [
+    "metro"
+  ],
+  "folder-filter": [
+    "filter",
+    "filters"
+  ],
+  "folder-toc": [
+    "toc",
+    "table-of-contents"
+  ],
+  "folder-cue": [
+    "cue",
+    "cues"
+  ],
+  "folder-license": [
+    "license",
+    "licenses"
+  ]
+}

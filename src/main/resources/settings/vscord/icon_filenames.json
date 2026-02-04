@@ -1,0 +1,571 @@
+{
+  "astroconfig": [
+    "astro.config"
+  ],
+  "babel": [
+    ".babelrc",
+    "babel.config"
+  ],
+  "babel2": [
+    ".babelrc",
+    "babel.config"
+  ],
+  "browserslist": [
+    "browserslist",
+    ".browserslistrc"
+  ],
+  "bundlemon": [
+    ".bundlemonrc"
+  ],
+  "caddy": [
+    "Caddyfile"
+  ],
+  "capacitor": [
+    "capacitor.config"
+  ],
+  "cmake": [
+    "CMakeLists.txt",
+    "CMakeCache.txt"
+  ],
+  "commitlint": [
+    ".commitlintrc"
+  ],
+  "cspell": [
+    "cspell.config",
+    "cspell",
+    ".cspell"
+  ],
+  "deno": [
+    "deno"
+  ],
+  "denoify": [
+    "denoify.config"
+  ],
+  "devvit": [
+    "devvit",
+    "devvit.dev",
+    "devvit.prod",
+    "devvit.test",
+    "devvit.config",
+    "devvit.config.dev",
+    "devvit.config.prod",
+    "devvit.config.test"
+  ],
+  "docker": [
+    "compose",
+    "docker-compose",
+    "docker-compose.debug",
+    "docker-compose.ci-build",
+    "docker-compose.override",
+    "docker-compose.vs.debug",
+    "docker-compose.vs.release",
+    "docker-cloud",
+    "docker-compose.yml",
+    "docker-compose.yaml",
+    "compose.yaml",
+    "compose.yml",
+    "Dockerfile",
+    "Dockerfile.dev",
+    "Dockerfile.prod",
+    "Dockerfile.test"
+  ],
+  "docker2": [
+    "compose",
+    "docker-compose",
+    "docker-compose.debug",
+    "docker-compose.ci-build",
+    "docker-compose.override",
+    "docker-compose.vs.debug",
+    "docker-compose.vs.release",
+    "docker-cloud",
+    "docker-compose.yml",
+    "docker-compose.yaml",
+    "compose.yaml",
+    "compose.yml",
+    "Dockerfile",
+    "Dockerfile.dev",
+    "Dockerfile.prod",
+    "Dockerfile.test"
+  ],
+  "docusaurus": [
+    "docusaurus.config"
+  ],
+  "docz": [
+    "docz",
+    ".docz",
+    "doczrc",
+    "docz.config"
+  ],
+  "drawio": [
+    ".drawio",
+    ".dio"
+  ],
+  "editorconfig": [
+    ".editorconfig"
+  ],
+  "esbuild": [
+    "esbuild",
+    "esbuild.config"
+  ],
+  "eslint": [
+    ".eslintrc"
+  ],
+  "eslint2": [
+    ".eslintrc"
+  ],
+  "flareact": [
+    "flareact.config"
+  ],
+  "formkit": [
+    "formkit.config"
+  ],
+  "gatsby": [
+    "gatsby-browser",
+    "gatsby-ssr",
+    "gatsby-config",
+    "gatsby-node"
+  ],
+  "gitpod": [
+    ".gitpod",
+    "gitpod"
+  ],
+  "graphql_config": [
+    ".graphqlconfig"
+  ],
+  "gridsome": [
+    "gridsome.config",
+    "gridsome.server",
+    "gridsome.client"
+  ],
+  "grunt": [
+    "gruntfile",
+    "gruntfile.babel"
+  ],
+  "gulp": [
+    "gulpfile",
+    "gulpfile.esm",
+    "gulpfile.babel"
+  ],
+  "hardhat": [
+    "hardhat.config"
+  ],
+  "htmlvalidate": [
+    ".htmlvalidate"
+  ],
+  "husky": [
+    ".huskyrc"
+  ],
+  "jest": [
+    "jest.config",
+    "jest.config.base",
+    "jest.config.common",
+    "jest.config.e2e",
+    "jest.config.int",
+    "jest.config.integration",
+    "jest.config.unit"
+  ],
+  "jscpd": [
+    "jscpd-report"
+  ],
+  "just": [
+    "justfile",
+    "Justfile"
+  ],
+  "karma": [
+    "karma.conf"
+  ],
+  "lefthook": [
+    "lefthook",
+    "lefthook-local",
+    ".lefthook",
+    ".lefthook-local"
+  ],
+  "license": [
+    "LICENCE",
+    "licence",
+    "LICENSE",
+    "license",
+    "copying",
+    "copying.lesser",
+    "LICENSE-MIT",
+    "license-mit",
+    "LICENSE-APACHE",
+    "license-apache",
+    "LICENSE-GPL",
+    "license-gpl",
+    "LICENSE-AGPL",
+    "license-agpl"
+  ],
+  "lighthouse": [
+    ".lighthouserc"
+  ],
+  "markdownlint": [
+    ".markdownlint",
+    ".markdownlint-cli2"
+  ],
+  "markuplint": [
+    ".markuplintrc",
+    "markuplint.config"
+  ],
+  "master-co": [
+    "master",
+    "master.css"
+  ],
+  "maven": [
+    "pom",
+    "extensions",
+    "settings"
+  ],
+  "mdx-components": [
+    "mdx-components"
+  ],
+  "mdxlint": [
+    ".mdxlintrc"
+  ],
+  "meson": [
+    "meson.build"
+  ],
+  "mocha": [
+    ".mocharc"
+  ],
+  "modernizr": [
+    "modernizr",
+    "modernizrrc",
+    ".modernizr",
+    ".modernizrrc"
+  ],
+  "moleculer": [
+    "moleculer.config"
+  ],
+  "nsri": [
+    ".nsrirc"
+  ],
+  "nuxt": [
+    "nuxt.config",
+    "nuxt"
+  ],
+  "nx": [
+    "nx"
+  ],
+  "paket": [
+    "paket"
+  ],
+  "pandacss": [
+    "panda.config"
+  ],
+  "pdm": [
+    "pdm"
+  ],
+  "php": [
+    ".php-version",
+    "artisan"
+  ],
+  "php2": [
+    ".php-version",
+    "artisan"
+  ],
+  "php3": [
+    ".php-version",
+    "artisan"
+  ],
+  "phpstan": [
+    "phpstan",
+    "phpstan.dist"
+  ],
+  "pip": [
+    "requirements.txt",
+    "requirements-dev.txt",
+    "requirements-test.txt",
+    "requirements-prod.txt"
+  ],
+  "playwright": [
+    "playwright.config"
+  ],
+  "pm2": [
+    "ecosystem.config"
+  ],
+  "poetry": [
+    "poetry"
+  ],
+  "preact": [
+    "preact.config"
+  ],
+  "prettier": [
+    "prettier.config",
+    ".prettierrc"
+  ],
+  "prismaconfig": [
+    "prisma.config"
+  ],
+  "protractor": [
+    "protractor.conf"
+  ],
+  "pulumi": [
+    "Pulumi",
+    "Pulumi.dev",
+    "Pulumi.prod"
+  ],
+  "python": [
+    "setup.py",
+    "setup.cfg",
+    ".python-version",
+    "Pipfile",
+    "Pipfile.lock"
+  ],
+  "quasar": [
+    "quasar.config"
+  ],
+  "razzle": [
+    "razzle.config"
+  ],
+  "reactrouter": [
+    "react-router.config"
+  ],
+  "rehype": [
+    ".rehyperc"
+  ],
+  "remark": [
+    ".remarkrc"
+  ],
+  "renovate": [
+    "renovate"
+  ],
+  "retext": [
+    ".retextrc"
+  ],
+  "robots": [
+    "robots.txt"
+  ],
+  "rollup": [
+    "rollup.config",
+    "rollup.config.common",
+    "rollup.config.dev",
+    "rollup.config.prod"
+  ],
+  "ruby": [
+    "config.ru"
+  ],
+  "seedkit": [
+    "seedkit.config"
+  ],
+  "serverless": [
+    "serverless"
+  ],
+  "sequelize": [
+    ".sequelizerc"
+  ],
+  "shell": [
+    ".bashrc",
+    ".zshrc",
+    ".profile",
+    ".bash_profile",
+    ".bash_aliases",
+    ".zprofile"
+  ],
+  "slashup": [
+    "slash-up.config"
+  ],
+  "sst": [
+    "sst-env",
+    "sst.config"
+  ],
+  "stryker": [
+    "stryker.conf",
+    ".stryker.conf",
+    "stryker.config",
+    ".stryker.config",
+    "stryker-config",
+    "stryker4s"
+  ],
+  "stylelint": [
+    "stylelint.config",
+    ".stylelintrc"
+  ],
+  "storybook": [
+    "story",
+    "stories"
+  ],
+  "svgo": [
+    "svgo.config"
+  ],
+  "tamagui": [
+    "tamagui",
+    "tamagui.config"
+  ],
+  "tailwind": [
+    "tailwind",
+    "tailwind.config",
+    ".tailwind",
+    ".tailwindrc"
+  ],
+  "taskfile": [
+    "taskfile",
+    "taskfile.dist"
+  ],
+  "testjs": [
+    "test",
+    "spec"
+  ],
+  "testplane": [
+    "testplane.conf",
+    "testplane.config"
+  ],
+  "testts": [
+    "test",
+    "spec",
+    "e2e-test",
+    "e2e-spec",
+    "test-d"
+  ],
+  "tiltfile": [
+    "Tiltfile"
+  ],
+  "truffle": [
+    "truffle-config"
+  ],
+  "tsconfig": [
+    "tsconfig",
+    "tsconfig.app",
+    "tsconfig.base",
+    "tsconfig.build",
+    "tsconfig.cjs",
+    "tsconfig.common",
+    "tsconfig.debug",
+    "tsconfig.dev",
+    "tsconfig.development",
+    "tsconfig.e2e",
+    "tsconfig.eslint",
+    "tsconfig.esm",
+    "tsconfig.mjs",
+    "tsconfig.node",
+    "tsconfig.prod",
+    "tsconfig.production",
+    "tsconfig.release",
+    "tsconfig.server",
+    "tsconfig.spec",
+    "tsconfig.staging",
+    "tsconfig.test",
+    "tsconfig.types",
+    "tsconfig.lib",
+    "tsconfig.lib.prod"
+  ],
+  "tsconfig_official": [
+    "tsconfig",
+    "tsconfig.app",
+    "tsconfig.base",
+    "tsconfig.build",
+    "tsconfig.common",
+    "tsconfig.dev",
+    "tsconfig.development",
+    "tsconfig.e2e",
+    "tsconfig.node",
+    "tsconfig.prod",
+    "tsconfig.production",
+    "tsconfig.server",
+    "tsconfig.spec",
+    "tsconfig.staging",
+    "tsconfig.test",
+    "tsconfig.lib",
+    "tsconfig.lib.prod"
+  ],
+  "tsdown": [
+    "tsdown.config"
+  ],
+  "typedoc": [
+    "typedoc",
+    "typedoc.config"
+  ],
+  "unibeautify": [
+    ".unibeautifyrc"
+  ],
+  "unlicense": [
+    "unlicense",
+    "unlicence",
+    "UNLICENSE",
+    "UNLICENCE"
+  ],
+  "unocss": [
+    "uno.config",
+    "unocss.config"
+  ],
+  "vscode": [
+    "launch",
+    "tasks",
+    "vscodeignore"
+  ],
+  "vscode2": [
+    "launch",
+    "tasks",
+    "vscodeignore"
+  ],
+  "vscode3": [
+    "launch",
+    "tasks",
+    "vscodeignore"
+  ],
+  "vscode_test": [
+    ".vscode-test"
+  ],
+  "vscode-insiders": [
+    "launch",
+    "tasks",
+    "vscodeignore"
+  ],
+  "vue": [
+    ".vue-cli-rc"
+  ],
+  "wallaby": [
+    "wallaby",
+    "wallaby.conf",
+    ".wallaby",
+    ".wallaby.conf"
+  ],
+  "wdio": [
+    "wdio",
+    "wdio.conf"
+  ],
+  "webpack": [
+    "webpack.base.conf",
+    "webpack.common",
+    "webpack.config",
+    "webpack.config.base",
+    "webpack.config.build",
+    "webpack.config.common",
+    "webpack.config.dev",
+    "webpack.config.development",
+    "webpack.config.staging",
+    "webpack.config.test",
+    "webpack.config.prod",
+    "webpack.config.production",
+    "webpack.config.babel",
+    "webpack.config.base.babel",
+    "webpack.config.common.babel",
+    "webpack.config.dev.babel",
+    "webpack.config.development.babel",
+    "webpack.config.staging.babel",
+    "webpack.config.test.babel",
+    "webpack.config.prod.babel",
+    "webpack.config.production.babel",
+    "webpack.dev",
+    "webpack.dev.conf",
+    "webpack.local",
+    "webpack.prod",
+    "webpack.prod.conf",
+    "webpack.main.config",
+    "webpack.mix",
+    "webpack.plugins",
+    "webpack.renderer.config",
+    "webpack.rules",
+    "webpack.test.conf"
+  ],
+  "wxt": [
+    "wxt.config"
+  ],
+  "xo": [
+    "xo.config",
+    ".xo-config"
+  ],
+  "yarn": [
+    "yarn.lock"
+  ]
+}

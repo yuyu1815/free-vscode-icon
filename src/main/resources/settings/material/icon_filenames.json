@@ -1,0 +1,1579 @@
+{
+  "pug": [
+    ".pug-lintrc",
+    ".pug-lintrc.js",
+    ".pug-lintrc.json"
+  ],
+  "just": [
+    "justfile",
+    ".justfile"
+  ],
+  "json": [
+    ".jscsrc",
+    ".jshintrc",
+    "composer.lock",
+    ".jsbeautifyrc",
+    ".esformatter",
+    "cdp.pid",
+    ".whitesource"
+  ],
+  "playwright": [
+    "playwright.config.js",
+    "playwright.config.cjs",
+    "playwright.config.mjs",
+    "playwright.config.ts",
+    "playwright.config.cts",
+    "playwright.config.mts",
+    "playwright.config.base.js",
+    "playwright.config.base.cjs",
+    "playwright.config.base.mjs",
+    "playwright.config.base.ts",
+    "playwright.config.base.cts",
+    "playwright.config.base.mts",
+    "playwright-ct.config.js",
+    "playwright-ct.config.cjs",
+    "playwright-ct.config.mjs",
+    "playwright-ct.config.ts",
+    "playwright-ct.config.cts",
+    "playwright-ct.config.mts"
+  ],
+  "xml": [
+    ".htaccess"
+  ],
+  "rocket": [
+    ".release-it.json",
+    ".release-it.ts",
+    ".release-it.js",
+    ".release-it.cjs",
+    ".release-it.yaml",
+    ".release-it.yml",
+    ".release-it.toml",
+    "release.toml",
+    "release-plz.toml",
+    ".release-plz.toml"
+  ],
+  "routing": [
+    "router.js",
+    "router.jsx",
+    "router.ts",
+    "router.tsx",
+    "route.js",
+    "route.jsx",
+    "route.ts",
+    "route.tsx",
+    "routes.js",
+    "routes.jsx",
+    "routes.ts",
+    "routes.tsx"
+  ],
+  "redux-action": [
+    "action.js",
+    "actions.js",
+    "action.ts",
+    "actions.ts"
+  ],
+  "redux-reducer": [
+    "reducer.js",
+    "reducers.js",
+    "reducer.ts",
+    "reducers.ts"
+  ],
+  "redux-selector": [
+    "selector.js",
+    "selectors.js",
+    "selector.ts",
+    "selectors.ts"
+  ],
+  "redux-store": [
+    "store.js",
+    "store.ts"
+  ],
+  "settings": [
+    ".jshintignore",
+    ".buildignore",
+    ".mrconfig",
+    ".yardopts",
+    "manifest.mf",
+    ".clang-format",
+    ".clang-format-ignore",
+    ".clang-tidy",
+    ".conf",
+    "compile_flags.txt"
+  ],
+  "astro-config": [
+    "astro.config.js",
+    "astro.config.mjs",
+    "astro.config.cjs",
+    "astro.config.ts",
+    "astro.config.cts",
+    "astro.config.mts"
+  ],
+  "visualstudio": [
+    ".vsconfig"
+  ],
+  "go-mod": [
+    "go.mod",
+    "go.sum",
+    "go.work",
+    "go.work.sum"
+  ],
+  "python-misc": [
+    "requirements.txt",
+    "pipfile",
+    ".python-version",
+    "manifest.in",
+    "pylintrc",
+    ".pylintrc",
+    "pyproject.toml",
+    "py.typed",
+    ".coveragerc",
+    ".coverage",
+    ".scrapy",
+    "celerybeat-schedule",
+    "celerybeat.pid"
+  ],
+  "ruff": [
+    "ruff.toml",
+    ".ruff.toml"
+  ],
+  "uv": [
+    "uv.toml",
+    ".uv.toml",
+    "uv.lock"
+  ],
+  "scons": [
+    "sconstruct",
+    "sconscript",
+    "scsub"
+  ],
+  "console": [
+    "commit-msg",
+    "pre-commit",
+    "pre-push",
+    "post-merge"
+  ],
+  "excalidraw": [
+    "excalidraw",
+    "excalidraw.json",
+    "excalidraw.svg",
+    "excalidraw.png"
+  ],
+  "gradle": [
+    "gradle.properties",
+    "gradlew",
+    "gradle-wrapper.properties",
+    "gradlew.bat"
+  ],
+  "license": [
+    "copying",
+    "copying.md",
+    "copying.rst",
+    "copying.txt",
+    "copyright",
+    "copyright.md",
+    "copyright.rst",
+    "copyright.txt",
+    "license",
+    "license-agpl",
+    "license-apache",
+    "license-bsd",
+    "license-mit",
+    "license-gpl",
+    "license-lgpl",
+    "license.md",
+    "license.rst",
+    "license.txt",
+    "licence",
+    "licence-agpl",
+    "licence-apache",
+    "licence-bsd",
+    "licence-mit",
+    "licence-gpl",
+    "licence-lgpl",
+    "licence.md",
+    "licence.rst",
+    "licence.txt"
+  ],
+  "unlicense": [
+    "unlicense",
+    "unlicense.txt"
+  ],
+  "key": [
+    ".htpasswd",
+    "sha256sums",
+    ".secrets"
+  ],
+  "keystatic": [
+    "keystatic.config.tsx",
+    "keystatic.config.ts",
+    "keystatic.config.jsx",
+    "keystatic.config.js"
+  ],
+  "ruby": [
+    ".ruby-version"
+  ],
+  "gemfile": [
+    "gemfile"
+  ],
+  "rubocop": [
+    ".rubocop.yml",
+    ".rubocop-todo.yml",
+    ".rubocop_todo.yml"
+  ],
+  "rspec": [
+    ".rspec"
+  ],
+  "swift": [
+    ".swift-format",
+    ".swift-version",
+    ".swiftformat"
+  ],
+  "docker": [
+    "dockerfile",
+    "dockerfile.prod",
+    "dockerfile.production",
+    "dockerfile.alpha",
+    "dockerfile.beta",
+    "dockerfile.stage",
+    "dockerfile.staging",
+    "dockerfile.dev",
+    "dockerfile.development",
+    "dockerfile.local",
+    "dockerfile.test",
+    "dockerfile.testing",
+    "dockerfile.ci",
+    "dockerfile.web",
+    "dockerfile.windows",
+    "dockerfile.worker",
+    "docker-compose.yml",
+    "docker-compose.override.yml",
+    "docker-compose.prod.yml",
+    "docker-compose.production.yml",
+    "docker-compose.alpha.yml",
+    "docker-compose.beta.yml",
+    "docker-compose.stage.yml",
+    "docker-compose.staging.yml",
+    "docker-compose.dev.yml",
+    "docker-compose.development.yml",
+    "docker-compose.local.yml",
+    "docker-compose.test.yml",
+    "docker-compose.testing.yml",
+    "docker-compose.ci.yml",
+    "docker-compose.web.yml",
+    "docker-compose.worker.yml",
+    "docker-compose.yaml",
+    "docker-compose.override.yaml",
+    "docker-compose.prod.yaml",
+    "docker-compose.production.yaml",
+    "docker-compose.alpha.yaml",
+    "docker-compose.beta.yaml",
+    "docker-compose.stage.yaml",
+    "docker-compose.staging.yaml",
+    "docker-compose.dev.yaml",
+    "docker-compose.development.yaml",
+    "docker-compose.local.yaml",
+    "docker-compose.test.yaml",
+    "docker-compose.testing.yaml",
+    "docker-compose.ci.yaml",
+    "docker-compose.web.yaml",
+    "docker-compose.worker.yaml",
+    "containerfile",
+    "containerfile.prod",
+    "containerfile.production",
+    "containerfile.alpha",
+    "containerfile.beta",
+    "containerfile.stage",
+    "containerfile.staging",
+    "containerfile.dev",
+    "containerfile.development",
+    "containerfile.local",
+    "containerfile.test",
+    "containerfile.testing",
+    "containerfile.ci",
+    "containerfile.web",
+    "containerfile.worker",
+    "compose.yaml",
+    "compose.override.yaml",
+    "compose.prod.yaml",
+    "compose.production.yaml",
+    "compose.alpha.yaml",
+    "compose.beta.yaml",
+    "compose.stage.yaml",
+    "compose.staging.yaml",
+    "compose.dev.yaml",
+    "compose.development.yaml",
+    "compose.local.yaml",
+    "compose.test.yaml",
+    "compose.testing.yaml",
+    "compose.ci.yaml",
+    "compose.web.yaml",
+    "compose.worker.yaml",
+    "compose.yml",
+    "compose.override.yml",
+    "compose.prod.yml",
+    "compose.production.yml",
+    "compose.alpha.yml",
+    "compose.beta.yml",
+    "compose.stage.yml",
+    "compose.staging.yml",
+    "compose.dev.yml",
+    "compose.development.yml",
+    "compose.local.yml",
+    "compose.test.yml",
+    "compose.testing.yml",
+    "compose.ci.yml",
+    "compose.web.yml",
+    "compose.worker.yml"
+  ],
+  "email": [
+    ".mailmap"
+  ],
+  "graphql": [
+    ".graphqlconfig"
+  ],
+  "xaml": [
+    "XamlStyler.json"
+  ],
+  "happo": [
+    ".happo.js",
+    ".happo.mjs",
+    ".happo.cjs"
+  ],
+  "chromatic": [
+    "chromatic.config.json"
+  ],
+  "git": [
+    ".git",
+    ".gitignore",
+    ".gitmessage",
+    ".gitignore-global",
+    ".gitignore_global",
+    ".gitattributes",
+    ".gitattributes-global",
+    ".gitattributes_global",
+    ".gitconfig",
+    ".gitmodules",
+    ".gitkeep",
+    ".keep",
+    ".gitpreserve",
+    ".gitinclude",
+    ".git-blame-ignore",
+    ".git-blame-ignore-revs",
+    ".git-for-windows-updater",
+    "git-history"
+  ],
+  "lua": [
+    ".luacheckrc"
+  ],
+  "r": [
+    ".Rhistory"
+  ],
+  "dart": [
+    ".pubignore"
+  ],
+  "cmake": [
+    "cmakelists.txt",
+    "cmakecache.txt",
+    "CMakePresets.json"
+  ],
+  "semgrep": [
+    "semgrep.yml",
+    ".semgrepignore"
+  ],
+  "vue-config": [
+    "vue.config.js",
+    "vue.config.ts",
+    "vetur.config.js",
+    "vetur.config.ts",
+    "volar.config.js"
+  ],
+  "vuex-store": [
+    "store.js",
+    "store.ts"
+  ],
+  "nuxt": [
+    "nuxt.config.js",
+    "nuxt.config.ts",
+    ".nuxtignore",
+    ".nuxtrc"
+  ],
+  "harmonix": [
+    "harmonix.config.js",
+    "harmonix.config.ts"
+  ],
+  "lock": [
+    "security.md",
+    "security.txt",
+    "security"
+  ],
+  "angular": [
+    "angular-cli.json",
+    ".angular-cli.json",
+    "angular.json",
+    "ng-package.json"
+  ],
+  "mjml": [
+    ".mjmlconfig"
+  ],
+  "vercel": [
+    "vercel.json",
+    ".vercelignore",
+    "now.json",
+    ".nowignore"
+  ],
+  "liara": [
+    "liara.json",
+    ".liaraignore"
+  ],
+  "verdaccio": [
+    "verdaccio.yml"
+  ],
+  "payload": [
+    "payload.config.js",
+    "payload.config.mjs",
+    "payload.config.ts",
+    "payload.config.mts"
+  ],
+  "next": [
+    "next.config.js",
+    "next.config.mjs",
+    "next.config.ts",
+    "next.config.mts"
+  ],
+  "remark": [
+    ".remarkrc",
+    ".remarkrc.cjs",
+    ".remarkrc.js",
+    ".remarkrc.json",
+    ".remarkrc.mjs",
+    ".remarkrc.yaml",
+    ".remarkrc.yml",
+    ".remarkignore"
+  ],
+  "remix": [
+    "remix.config.js",
+    "remix.config.ts"
+  ],
+  "laravel": [
+    "artisan"
+  ],
+  "vfl": [
+    ".vfl"
+  ],
+  "kl": [
+    ".kl"
+  ],
+  "todo": [
+    "todo.md",
+    "todos.md"
+  ],
+  "cabal": [
+    "cabal.project",
+    "cabal.project.freeze",
+    "cabal.project.local"
+  ],
+  "http": [
+    "CNAME"
+  ],
+  "graphcool": [
+    "project.graphcool"
+  ],
+  "webpack": [
+    "webpack.config.coffee"
+  ],
+  "rstack": [
+    "rspress.config.ts",
+    "rslint.json",
+    "rslint.jsonc"
+  ],
+  "ionic": [
+    "ionic.config.json",
+    ".io-config.json"
+  ],
+  "gulp": [
+    "gulpfile.js",
+    "gulpfile.mjs",
+    "gulpfile.ts",
+    "gulpfile.cts",
+    "gulpfile.mts",
+    "gulpfile.babel.js",
+    "gulpfile.cjs"
+  ],
+  "nodejs": [
+    "package.json",
+    "package-lock.json",
+    ".nvmrc",
+    ".esmrc",
+    ".node-version"
+  ],
+  "npm": [
+    ".npmignore",
+    ".npmrc"
+  ],
+  "yarn": [
+    ".yarnrc",
+    "yarn.lock",
+    ".yarnclean",
+    ".yarn-integrity",
+    "yarn-error.log",
+    ".yarnrc.yml",
+    ".yarnrc.yaml"
+  ],
+  "android": [
+    "androidmanifest.xml"
+  ],
+  "tune": [
+    ".env.defaults",
+    ".env.example",
+    ".env.sample",
+    ".env.template",
+    ".env.schema",
+    ".env.local",
+    ".env.dev",
+    ".env.development",
+    ".env.alpha",
+    ".env.e2e",
+    ".env.qa",
+    ".env.dist",
+    ".env.prod",
+    ".env.production",
+    ".env.stg",
+    ".env.stage",
+    ".env.staging",
+    ".env.preview",
+    ".env.test",
+    ".env.testing",
+    ".env.dev.local",
+    ".env.development.local",
+    ".env.qa.local",
+    ".env.prod.local",
+    ".env.production.local",
+    ".env.stg.local",
+    ".env.staging.local",
+    ".env.test.local",
+    ".env.uat",
+    ".vars",
+    ".dev.vars"
+  ],
+  "turborepo": [
+    "turbo.json",
+    "turbo.jsonc"
+  ],
+  "babel": [
+    "babel-transform.js"
+  ],
+  "blitz": [
+    "blitz.config.js",
+    "blitz.config.ts",
+    ".blitz.config.compiled.js"
+  ],
+  "contributing": [
+    "contributing.md",
+    "contributing.rst",
+    "contributing.txt",
+    "contributing"
+  ],
+  "readme": [
+    "readme.md",
+    "readme.rst",
+    "readme.txt",
+    "readme"
+  ],
+  "changelog": [
+    "changelog",
+    "changelog.md",
+    "changelog.rst",
+    "changelog.txt",
+    "changes",
+    "changes.md",
+    "changes.rst",
+    "changes.txt"
+  ],
+  "architecture": [
+    "architecture.md",
+    "architecture.rst",
+    "architecture.txt",
+    "architecture"
+  ],
+  "credits": [
+    "credits.md",
+    "credits.rst",
+    "credits.txt",
+    "credits"
+  ],
+  "authors": [
+    "authors.md",
+    "authors.rst",
+    "authors.txt",
+    "authors",
+    "contributors.md",
+    "contributors.rst",
+    "contributors.txt",
+    "contributors"
+  ],
+  "flow": [
+    ".flowconfig"
+  ],
+  "favicon": [
+    "favicon.ico"
+  ],
+  "karma": [
+    "karma.conf.js",
+    "karma.conf.ts",
+    "karma.conf.coffee",
+    "karma.config.js",
+    "karma.config.ts",
+    "karma-main.js",
+    "karma-main.ts"
+  ],
+  "bithound": [
+    ".bithoundrc"
+  ],
+  "svgo": [
+    "svgo.config.js",
+    "svgo.config.cjs",
+    "svgo.config.mjs"
+  ],
+  "appveyor": [
+    ".appveyor.yml",
+    "appveyor.yml"
+  ],
+  "travis": [
+    ".travis.yml"
+  ],
+  "codecov": [
+    ".codecov.yml",
+    "codecov.yml",
+    ".codecov.yaml",
+    "codecov.yaml"
+  ],
+  "sonarcloud": [
+    "sonar-project.properties",
+    ".sonarcloud.properties",
+    "sonarcloud.yaml",
+    "SonarQube.Analysis.xml"
+  ],
+  "protractor": [
+    "protractor.conf.js",
+    "protractor.conf.ts",
+    "protractor.conf.coffee",
+    "protractor.config.js",
+    "protractor.config.ts"
+  ],
+  "fusebox": [
+    "fuse.js"
+  ],
+  "heroku": [
+    "procfile",
+    "procfile.windows"
+  ],
+  "editorconfig": [
+    ".editorconfig",
+    ".editorconfig-checker.json",
+    ".ecrc"
+  ],
+  "bower": [
+    ".bowerrc",
+    "bower.json"
+  ],
+  "eslint": [
+    ".eslintrc-md.js",
+    ".eslintrc-jsdoc.js",
+    ".eslintrc.base.json",
+    ".eslintignore",
+    ".eslintcache",
+    "eslint-options.js"
+  ],
+  "conduct": [
+    "code_of_conduct.md",
+    "code_of_conduct.txt",
+    "code_of_conduct"
+  ],
+  "watchman": [
+    ".watchmanconfig"
+  ],
+  "aurelia": [
+    "aurelia.json"
+  ],
+  "auto": [
+    ".autorc",
+    "auto.config.js",
+    "auto.config.ts",
+    "auto-config.json",
+    "auto-config.yaml",
+    "auto-config.yml",
+    "auto-config.ts",
+    "auto-config.js"
+  ],
+  "mocha": [
+    "mocha.opts",
+    ".mocharc.yml",
+    ".mocharc.yaml",
+    ".mocharc.js",
+    ".mocharc.cjs",
+    ".mocharc.json",
+    ".mocharc.jsonc"
+  ],
+  "jenkins": [
+    "jenkinsfile"
+  ],
+  "firebase": [
+    "firebase.config.js",
+    "firebase.json",
+    ".firebaserc",
+    "firestore.rules",
+    "firestore.indexes.json"
+  ],
+  "rollup": [
+    "rollup.config.js",
+    "rollup.config.mjs",
+    "rollup.config.ts",
+    "rollup-config.js",
+    "rollup-config.mjs",
+    "rollup-config.ts",
+    "rollup.config.common.js",
+    "rollup.config.common.mjs",
+    "rollup.config.common.ts",
+    "rollup.config.base.js",
+    "rollup.config.base.mjs",
+    "rollup.config.base.ts",
+    "rollup.config.prod.js",
+    "rollup.config.prod.mjs",
+    "rollup.config.prod.ts",
+    "rollup.config.dev.js",
+    "rollup.config.dev.mjs",
+    "rollup.config.dev.ts",
+    "rollup.config.prod.vendor.js",
+    "rollup.config.prod.vendor.mjs",
+    "rollup.config.prod.vendor.ts"
+  ],
+  "hack": [
+    ".hhconfig"
+  ],
+  "hardhat": [
+    "hardhat.config.js",
+    "hardhat.config.ts"
+  ],
+  "stylelint": [
+    ".stylelintignore",
+    ".stylelintcache"
+  ],
+  "code-climate": [
+    ".codeclimate.yml"
+  ],
+  "prettier": [
+    ".prettierignore"
+  ],
+  "renovate": [
+    ".renovaterc",
+    ".renovaterc.json",
+    "renovate-config.json",
+    "renovate.json",
+    "renovate.json5"
+  ],
+  "apollo": [
+    "apollo.config.js"
+  ],
+  "nodemon": [
+    "nodemon.json",
+    "nodemon-debug.json"
+  ],
+  "ngrx-entity": [
+    ".entity"
+  ],
+  "webhint": [
+    ".hintrc"
+  ],
+  "browserlist": [
+    "browserslist",
+    ".browserslistrc"
+  ],
+  "snyk": [
+    ".snyk"
+  ],
+  "drone": [
+    ".drone.yml"
+  ],
+  "sequelize": [
+    ".sequelizerc"
+  ],
+  "gatsby": [
+    "gatsby-config.js",
+    "gatsby-config.mjs",
+    "gatsby-config.ts",
+    "gatsby-node.js",
+    "gatsby-node.mjs",
+    "gatsby-node.ts",
+    "gatsby-browser.js",
+    "gatsby-browser.tsx",
+    "gatsby-ssr.js",
+    "gatsby-ssr.tsx"
+  ],
+  "wakatime": [
+    ".wakatime-project"
+  ],
+  "circleci": [
+    "circle.yml"
+  ],
+  "cloudfoundry": [
+    ".cfignore"
+  ],
+  "grunt": [
+    "gruntfile.js",
+    "gruntfile.ts",
+    "gruntfile.cjs",
+    "gruntfile.cts",
+    "gruntfile.coffee",
+    "gruntfile.babel.js",
+    "gruntfile.babel.ts",
+    "gruntfile.babel.coffee"
+  ],
+  "jest": [
+    "jest.config.js",
+    "jest.config.cjs",
+    "jest.config.mjs",
+    "jest.config.ts",
+    "jest.config.cts",
+    "jest.config.mts",
+    "jest.config.json",
+    "jest.e2e.config.js",
+    "jest.e2e.config.cjs",
+    "jest.e2e.config.mjs",
+    "jest.e2e.config.ts",
+    "jest.e2e.config.cts",
+    "jest.e2e.config.mts",
+    "jest.e2e.config.json",
+    "jest.e2e.json",
+    "jest-unit.config.js",
+    "jest-e2e.config.js",
+    "jest-e2e.config.cjs",
+    "jest-e2e.config.mjs",
+    "jest-e2e.config.ts",
+    "jest-e2e.config.cts",
+    "jest-e2e.config.mts",
+    "jest-e2e.config.json",
+    "jest-e2e.json",
+    "jest-github-actions-reporter.js",
+    "jest.setup.js",
+    "jest.setup.ts",
+    "jest.json",
+    ".jestrc",
+    ".jestrc.js",
+    ".jestrc.json",
+    "jest.teardown.js",
+    "jest-preset.json",
+    "jest-preset.js",
+    "jest-preset.cjs",
+    "jest-preset.mjs",
+    "jest.preset.js",
+    "jest.preset.mjs",
+    "jest.preset.cjs",
+    "jest.preset.json"
+  ],
+  "fastlane": [
+    "fastfile",
+    "appfile"
+  ],
+  "helm": [
+    ".helmignore"
+  ],
+  "wallaby": [
+    "wallaby.js",
+    "wallaby.conf.js"
+  ],
+  "stencil": [
+    "stencil.config.js",
+    "stencil.config.ts"
+  ],
+  "makefile": [
+    "makefile",
+    "gnumakefile",
+    "kbuild"
+  ],
+  "bitbucket": [
+    "bitbucket-pipelines.yaml",
+    "bitbucket-pipelines.yml"
+  ],
+  "bazel": [
+    ".bazelignore",
+    ".bazelrc",
+    ".bazelversion"
+  ],
+  "godot-assets": [
+    ".gdignore",
+    "._sc_",
+    "_sc_"
+  ],
+  "azure-pipelines": [
+    "azure-pipelines.yml",
+    "azure-pipelines.yaml",
+    "azure-pipelines-main.yml",
+    "azure-pipelines-main.yaml"
+  ],
+  "vagrant": [
+    "vagrantfile"
+  ],
+  "prisma": [
+    "prisma.yml",
+    "prisma.config.ts"
+  ],
+  "istanbul": [
+    ".nycrc",
+    ".nycrc.json",
+    ".nycrc.yaml",
+    ".nycrc.yml",
+    "nyc.config.js",
+    "nyc.config.cjs",
+    ".istanbul.yml"
+  ],
+  "tailwindcss": [
+    "tailwind.js",
+    "tailwind.ts",
+    "tailwind.config.js",
+    "tailwind.config.cjs",
+    "tailwind.config.mjs",
+    "tailwind.config.ts",
+    "tailwind.config.cts",
+    "tailwind.config.mts"
+  ],
+  "buildkite": [
+    "buildkite.yml",
+    "buildkite.yaml"
+  ],
+  "netlify": [
+    "netlify.json",
+    "netlify.yml",
+    "netlify.yaml",
+    "netlify.toml"
+  ],
+  "nest": [
+    "nest-cli.json",
+    ".nest-cli.json",
+    "nestconfig.json",
+    ".nestconfig.json"
+  ],
+  "moon": [
+    "moon.yml"
+  ],
+  "percy": [
+    ".percy.yml"
+  ],
+  "gitpod": [
+    ".gitpod.yml"
+  ],
+  "stackblitz": [
+    ".stackblitzrc"
+  ],
+  "codeowners": [
+    "codeowners",
+    "OWNERS"
+  ],
+  "gcp": [
+    ".gcloudignore"
+  ],
+  "amplify": [
+    "amplify.yml"
+  ],
+  "tilt": [
+    "tiltfile"
+  ],
+  "capacitor": [
+    "capacitor.config.json",
+    "capacitor.config.ts"
+  ],
+  "adonis": [
+    ".adonisrc.json",
+    "ace"
+  ],
+  "meson": [
+    "meson.build",
+    "meson_options.txt",
+    "meson.options"
+  ],
+  "commitizen": [
+    ".czrc",
+    ".cz.json",
+    ".cz.toml",
+    ".cz.yaml",
+    ".cz.yml",
+    "cz.json",
+    "cz.toml",
+    "cz.yaml",
+    "cz.yml"
+  ],
+  "commitlint": [
+    ".commitlint.yaml",
+    ".commitlint.yml"
+  ],
+  "buck": [
+    ".buckconfig"
+  ],
+  "nx": [
+    "nx.json",
+    ".nxignore"
+  ],
+  "dune": [
+    "dune",
+    "dune-project",
+    "dune-workspace",
+    "dune-workspace.dev"
+  ],
+  "roadmap": [
+    "roadmap.md",
+    "roadmap.txt",
+    "timeline.md",
+    "timeline.txt",
+    "milestones.md",
+    "milestones.txt"
+  ],
+  "nuget": [
+    "nuget.config",
+    ".nuspec",
+    "nuget.exe"
+  ],
+  "stryker": [
+    "stryker.conf.json",
+    "stryker.conf.js",
+    "stryker.conf.cjs",
+    "stryker.conf.mjs",
+    ".stryker.conf.json",
+    ".stryker.conf.js",
+    ".stryker.conf.cjs",
+    ".stryker.conf.mjs",
+    "stryker.config.json",
+    "stryker.config.js",
+    "stryker.config.mjs",
+    "stryker.config.cjs",
+    ".stryker.config.json",
+    ".stryker.config.js",
+    ".stryker.config.mjs",
+    ".stryker.config.cjs"
+  ],
+  "modernizr": [
+    ".modernizrrc",
+    ".modernizrrc.js",
+    ".modernizrrc.json"
+  ],
+  "slug": [
+    ".slugignore"
+  ],
+  "stitches": [
+    "stitches.config.js",
+    "stitches.config.ts"
+  ],
+  "nginx": [
+    "nginx.conf"
+  ],
+  "minecraft": [
+    ".mcattributes",
+    ".mcdefinitions",
+    ".mcignore"
+  ],
+  "replit": [
+    ".replit"
+  ],
+  "duc": [
+    "duc.fbs"
+  ],
+  "snowpack": [
+    "snowpack.config.js",
+    "snowpack.config.cjs",
+    "snowpack.config.mjs",
+    "snowpack.config.ts",
+    "snowpack.config.cts",
+    "snowpack.config.mts",
+    "snowpack.deps.json",
+    "snowpack.config.json"
+  ],
+  "quasar": [
+    "quasar.conf.js",
+    "quasar.config.js",
+    "quasar.conf.ts",
+    "quasar.config.ts",
+    "quasar.config.cjs"
+  ],
+  "dependabot": [
+    "dependabot.yml",
+    "dependabot.yaml"
+  ],
+  "lerna": [
+    "lerna.json"
+  ],
+  "windicss": [
+    "windi.config.js",
+    "windi.config.cjs",
+    "windi.config.ts",
+    "windi.config.cts",
+    "windi.config.json"
+  ],
+  "textlint": [
+    ".textlintrc",
+    ".textlintrc.js",
+    ".textlintrc.cjs",
+    ".textlintrc.json",
+    ".textlintrc.yml",
+    ".textlintrc.yaml",
+    ".textlintignore"
+  ],
+  "vlang": [
+    "vpkg.json",
+    "v.mod"
+  ],
+  "sentry": [
+    ".sentryclirc",
+    ".env.sentry-build-plugin"
+  ],
+  "phpunit": [
+    ".phpunit.result.cache",
+    ".phpunit-watcher.yml",
+    "phpunit.xml",
+    "phpunit.xml.dist",
+    "phpunit-watcher.yml",
+    "phpunit-watcher.yml.dist"
+  ],
+  "php-cs-fixer": [
+    ".php_cs",
+    ".php_cs.dist",
+    ".php_cs.php",
+    ".php_cs.dist.php",
+    ".php-cs-fixer.php",
+    ".php-cs-fixer.dist.php"
+  ],
+  "robots": [
+    "robots.txt"
+  ],
+  "tsconfig": [
+    "tsconfig.json",
+    "tsconfig.app.json",
+    "tsconfig.editor.json",
+    "tsconfig.spec.json",
+    "tsconfig.base.json",
+    "tsconfig.build.json",
+    "tsconfig.eslint.json",
+    "tsconfig.lib.json",
+    "tsconfig.lib.prod.json",
+    "tsconfig.node.json",
+    "tsconfig.test.json",
+    "tsconfig.e2e.json",
+    "tsconfig.web.json",
+    "tsconfig.webworker.json",
+    "tsconfig.worker.json",
+    "tsconfig.config.json",
+    "tsconfig.vitest.json",
+    "tsconfig.cjs.json",
+    "tsconfig.esm.json",
+    "tsconfig.mjs.json",
+    "tsconfig.doc.json",
+    "tsconfig.paths.json",
+    "tsconfig.main.json",
+    "tsconfig.renderer.json",
+    "tsconfig.server.json",
+    "tsconfig.client.json",
+    "tsconfig.declaration.json"
+  ],
+  "tauri": [
+    "tauri.conf.json",
+    "tauri.config.json",
+    "tauri.linux.conf.json",
+    "tauri.windows.conf.json",
+    "tauri.macos.conf.json",
+    ".taurignore"
+  ],
+  "jsconfig": [
+    "jsconfig.json"
+  ],
+  "maven": [
+    "maven.config",
+    "jvm.config",
+    "pom.xml"
+  ],
+  "serverless": [
+    "serverless.yml",
+    "serverless.yaml",
+    "serverless.json",
+    "serverless.js",
+    "serverless.ts"
+  ],
+  "supabase": [
+    "supabase.js",
+    "supabase.ts",
+    "supabase.py"
+  ],
+  "ember": [
+    ".ember-cli",
+    ".ember-cli.js",
+    "ember-cli-builds.js"
+  ],
+  "horusec": [
+    "horusec-config.json"
+  ],
+  "poetry": [
+    "poetry.lock"
+  ],
+  "pdm": [
+    "pdm.lock",
+    "pdm.toml",
+    ".pdm-python"
+  ],
+  "parcel": [
+    ".parcelrc"
+  ],
+  "astyle": [
+    ".astylerc"
+  ],
+  "lighthouse": [
+    ".lighthouserc.js",
+    "lighthouserc.js",
+    ".lighthouserc.cjs",
+    "lighthouserc.cjs",
+    ".lighthouserc.json",
+    "lighthouserc.json",
+    ".lighthouserc.yml",
+    "lighthouserc.yml",
+    ".lighthouserc.yaml",
+    "lighthouserc.yaml"
+  ],
+  "rome": [
+    "rome.json"
+  ],
+  "cypress": [
+    "cypress.json",
+    "cypress.env.json"
+  ],
+  "plop": [
+    "plopfile.js",
+    "plopfile.cjs",
+    "plopfile.mjs",
+    "plopfile.ts"
+  ],
+  "tobimake": [
+    ".tobimake"
+  ],
+  "gleam": [
+    "gleam.toml"
+  ],
+  "pnpm": [
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    ".pnpmfile.cjs"
+  ],
+  "gridsome": [
+    "gridsome.config.js",
+    "gridsome.server.js"
+  ],
+  "steadybit": [
+    ".steadybit.yml",
+    "steadybit.yml",
+    ".steadybit.yaml",
+    "steadybit.yaml"
+  ],
+  "caddy": [
+    "Caddyfile"
+  ],
+  "openapi": [
+    "openapi.json",
+    "openapi.yml",
+    "openapi.yaml"
+  ],
+  "swagger": [
+    "swagger.json",
+    "swagger.yml",
+    "swagger.yaml"
+  ],
+  "bun": [
+    "bun.lockb",
+    "bunfig.toml",
+    ".bun-version",
+    "bun.lock"
+  ],
+  "nano-staged": [
+    ".nano-staged.js",
+    "nano-staged.js",
+    ".nano-staged.cjs",
+    "nano-staged.cjs",
+    ".nano-staged.mjs",
+    "nano-staged.mjs",
+    ".nano-staged.json",
+    "nano-staged.json",
+    ".nanostagedrc"
+  ],
+  "knip": [
+    "knip.json",
+    "knip.jsonc",
+    ".knip.json",
+    ".knip.jsonc",
+    "knip.ts",
+    "knip.js",
+    "knip.config.ts",
+    "knip.config.js"
+  ],
+  "taskfile": [
+    "taskfile.yml",
+    "taskfile.yaml",
+    "taskfile.dist.yml",
+    "taskfile.dist.yaml",
+    ".taskrc.yml",
+    ".taskrc.yaml"
+  ],
+  "mercurial": [
+    ".hg",
+    ".hgignore",
+    ".hgflow",
+    ".hgtags",
+    ".hgrc",
+    "hgrc",
+    "mercurial.ini"
+  ],
+  "deno": [
+    "deno.json",
+    "deno.jsonc",
+    "deno.lock"
+  ],
+  "plastic": [
+    "plastic.branchexplorer",
+    "plastic.selector",
+    "plastic.wktree",
+    "plastic.workspace",
+    "plastic.workspaces"
+  ],
+  "typst": [
+    "typst.toml"
+  ],
+  "unocss": [
+    "uno.config.js",
+    "uno.config.mjs",
+    "uno.config.ts",
+    "uno.config.mts",
+    "unocss.config.js",
+    "unocss.config.mjs",
+    "unocss.config.ts",
+    "unocss.config.mts"
+  ],
+  "ifanr-cloud": [
+    ".mincloudrc",
+    ".qa-mincloudrc"
+  ],
+  "concourse": [
+    "concourse.yml"
+  ],
+  "werf": [
+    "werf.yaml",
+    "werf.yml",
+    "werf-giterminism.yaml",
+    "werf-giterminism.yml",
+    "werf-includes.lock",
+    "werf-includes.yaml",
+    "werf-includes.yml"
+  ],
+  "luau": [
+    ".luaurc"
+  ],
+  "wally": [
+    "wally.toml"
+  ],
+  "biome": [
+    "biome.json",
+    "biome.jsonc"
+  ],
+  "drizzle": [
+    "drizzle.config.ts",
+    "drizzle.config.dev.ts",
+    "drizzle.config.prod.ts",
+    "drizzle.config.js",
+    "drizzle.config.dev.js",
+    "drizzle.config.prod.js",
+    "drizzle.config.json",
+    "drizzle.config.dev.json",
+    "drizzle.config.prod.json"
+  ],
+  "garden": [
+    "garden.yml",
+    "garden.yaml",
+    "project.garden.yml",
+    "project.garden.yaml",
+    ".gardenignore"
+  ],
+  "pkl": [
+    "PklProject",
+    "PklProject.deps.json"
+  ],
+  "kubernetes": [
+    "k8s.yml",
+    "k8s.yaml",
+    "kubernetes.yml",
+    "kubernetes.yaml",
+    ".k8s.yml",
+    ".k8s.yaml"
+  ],
+  "phpstan": [
+    "phpstan.neon",
+    "phpstan.neon.dist",
+    "phpstan.dist.neon"
+  ],
+  "screwdriver": [
+    "screwdriver.yaml",
+    "screwdriver.yml"
+  ],
+  "snapcraft": [
+    "snapcraft.yaml",
+    "snapcraft.yml"
+  ],
+  "kcl": [
+    "kcl.mod",
+    "kcl.yaml",
+    "kcl.yml"
+  ],
+  "clangd": [
+    ".clangd"
+  ],
+  "markdownlint": [
+    ".markdownlint.json",
+    ".markdownlint.jsonc",
+    ".markdownlint.yaml",
+    ".markdownlint.yml",
+    ".markdownlint-cli2.jsonc",
+    ".markdownlint-cli2.yaml",
+    ".markdownlint-cli2.cjs",
+    ".markdownlint-cli2.mjs",
+    ".markdownlintignore"
+  ],
+  "deepsource": [
+    ".deepsource.toml"
+  ],
+  "jsr": [
+    "jsr.json",
+    "jsr.jsonc"
+  ],
+  "coderabbit-ai": [
+    ".coderabbit.yml",
+    ".coderabbit.yaml"
+  ],
+  "gemini-ai": [
+    ".aiexclude",
+    "GEMINI.md"
+  ],
+  "lefthook": [
+    ".lefthook-local.json",
+    ".lefthook-local.toml",
+    ".lefthook-local.yaml",
+    ".lefthook-local.yml",
+    ".lefthook.json",
+    ".lefthook.toml",
+    ".lefthook.yaml",
+    ".lefthook.yml",
+    ".lefthookrc",
+    "lefthook-local.json",
+    "lefthook-local.toml",
+    "lefthook-local.yaml",
+    "lefthook-local.yml",
+    "lefthook.json",
+    "lefthook.toml",
+    "lefthook.yaml",
+    "lefthook.yml",
+    "lefthookrc"
+  ],
+  "label": [
+    ".github/labeler.yml",
+    ".github/labeler.yaml"
+  ],
+  "copilot": [
+    "copilot-instructions.md"
+  ],
+  "pre-commit": [
+    ".pre-commit-config.yaml",
+    ".pre-commit-hooks.yaml"
+  ],
+  "lintstaged": [
+    ".lintstagedrc",
+    ".lintstagedrc.json",
+    ".lintstagedrc.yaml",
+    ".lintstagedrc.yml",
+    ".lintstagedrc.mjs",
+    ".lintstagedrc.cjs",
+    "lint-staged.config.mjs",
+    "lint-staged.config.cjs",
+    "lint-staged.config.js",
+    ".lintstagedrc.js"
+  ],
+  "installation": [
+    "install",
+    "installation"
+  ],
+  "github-sponsors": [
+    ".github/FUNDING.yml"
+  ],
+  "minecraft-fabric": [
+    "fabric.mod.json"
+  ],
+  "hosts": [
+    "hosts"
+  ],
+  "citation": [
+    "citation.cff"
+  ],
+  "xmake": [
+    "xmake.lua",
+    "xmake"
+  ],
+  "wrangler": [
+    "wrangler.toml",
+    "wrangler.json",
+    "wrangler.jsonc"
+  ],
+  "cline": [
+    ".clinerules"
+  ],
+  "packship": [
+    ".packshiprc",
+    ".packshiprc.json",
+    ".packshiprc.js",
+    ".packshiprc.ts",
+    "packship.config.js",
+    "packship.config.ts",
+    "packship.config.mjs",
+    "packship.config.mts",
+    "packship.config.json"
+  ],
+  "snakemake": [
+    "Snakefile"
+  ],
+  "tsdoc": [
+    "tsdoc.json"
+  ],
+  "oxc": [
+    ".oxlintrc.json",
+    ".oxlintrc.jsonc",
+    ".oxfmtrc.json",
+    ".oxfmtrc.jsonc"
+  ],
+  "claude": [
+    "CLAUDE.md",
+    "CLAUDE.local.md"
+  ],
+  "cursor": [
+    ".cursorignore",
+    ".cursorindexingignore",
+    ".cursorrules",
+    ".cursor",
+    ".cursor.json",
+    ".cursorrc"
+  ],
+  "metro": [
+    "metro.config.js",
+    "metro.config.cjs",
+    "metro.config.mjs",
+    "metro.config.json"
+  ],
+  "bashly-hook": [
+    "src/initialize.sh",
+    "src/before.sh",
+    "src/after.sh"
+  ],
+  "google": [
+    "google-services.json",
+    "GoogleService-Info.plist"
+  ],
+  "warp": [
+    "warp.md"
+  ]
+}

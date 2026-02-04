@@ -6,10 +6,12 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.yuyu1815.freevscodeicon.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.yuyu1815.freevscodeicon.startup.MyProjectActivity" />
+        <fileIconProvider implementation="com.github.yuyu1815.freevscodeicon.VscordIconProvider"/>
+        <projectService serviceImplementation="com.github.yuyu1815.freevscodeicon.IconThemeConfig"/>
+        <projectConfigurable parentId="tools" 
+                           id="iconThemeSettings" 
+                           displayName="Icon Theme Settings"
+                           instance="com.github.yuyu1815.freevscodeicon.IconThemeConfigurable"/>
     </extensions>
 </idea-plugin>

@@ -1,0 +1,849 @@
+{
+  "android": [
+    "android"
+  ],
+  "angular": [
+    ".angular"
+  ],
+  "apache": [
+    "apache",
+    "apache2",
+    "httpd"
+  ],
+  "api": [
+    "api",
+    ".api",
+    "apis",
+    ".apis"
+  ],
+  "app": [
+    "app",
+    "apps",
+    ".app",
+    "application",
+    "applications"
+  ],
+  "arangodb": [
+    "arangodb",
+    "arango"
+  ],
+  "asset": [
+    "assets",
+    ".assets"
+  ],
+  "astro": [
+    ".astro"
+  ],
+  "aurelia": [
+    "aurelia_project"
+  ],
+  "audio": [
+    "audio",
+    ".audio",
+    "audios",
+    ".audios",
+    "sound",
+    ".sound",
+    "sounds",
+    ".sounds"
+  ],
+  "aws": [
+    "aws",
+    ".aws"
+  ],
+  "azure": [
+    "azure",
+    ".azure"
+  ],
+  "azurepipelines": [
+    "azure-pipelines",
+    ".azure-pipelines",
+    ".azuredevops",
+    ".vsts"
+  ],
+  "binary": [
+    "bin",
+    ".bin"
+  ],
+  "bloc": [
+    "blocs",
+    "bloc"
+  ],
+  "blueprint": [
+    "blueprint",
+    ".blueprint",
+    "blueprints",
+    ".blueprints"
+  ],
+  "bot": [
+    "bot",
+    ".bot"
+  ],
+  "bower": [
+    "bower_components"
+  ],
+  "buildkite": [
+    ".buildkite"
+  ],
+  "cake": [
+    "cake",
+    ".cake"
+  ],
+  "cargo": [
+    "cargo",
+    ".cargo",
+    "crates"
+  ],
+  "certificate": [
+    "certificates",
+    ".certificates",
+    "certs",
+    "certs."
+  ],
+  "changesets": [
+    ".changeset"
+  ],
+  "chef": [
+    "chef",
+    ".chef"
+  ],
+  "circleci": [
+    ".circleci"
+  ],
+  "claude": [
+    ".claude"
+  ],
+  "cloudflare": [
+    ".cloudflare",
+    "cloudflare"
+  ],
+  "controller": [
+    "__controller__",
+    "__controllers__",
+    "controller",
+    "controllers",
+    ".controllers",
+    "__handler__",
+    "__handlers__",
+    "handler",
+    ".handler",
+    "handlers",
+    ".handlers"
+  ],
+  "component": [
+    "component",
+    "components",
+    ".components",
+    "gui",
+    "src-ui",
+    "ui",
+    "widgets"
+  ],
+  "composer": [
+    "composer",
+    ".composer"
+  ],
+  "cli": [
+    "cli",
+    "cmd",
+    "command",
+    "commands",
+    "commandline",
+    "console"
+  ],
+  "client": [
+    "client",
+    "clients"
+  ],
+  "cmake": [
+    ".cmake",
+    "cmake"
+  ],
+  "common": [
+    "common"
+  ],
+  "config": [
+    "conf",
+    ".conf",
+    "config",
+    ".config",
+    "configs",
+    ".configs",
+    "configuration",
+    ".configuration",
+    "configurations",
+    ".configurations",
+    "setting",
+    ".setting",
+    "settings",
+    ".settings",
+    "ini",
+    ".ini",
+    "initializers",
+    ".initializers"
+  ],
+  "coverage": [
+    "coverage"
+  ],
+  "css": [
+    "css",
+    "_css"
+  ],
+  "css2": [
+    "css",
+    "_css"
+  ],
+  "cubit": [
+    "cubits",
+    "cubit"
+  ],
+  "cursor": [
+    ".cursor"
+  ],
+  "cypress": [
+    "cypress"
+  ],
+  "dapr": [
+    ".dapr",
+    "dapr"
+  ],
+  "dart": [
+    "dart",
+    ".dart_tool"
+  ],
+  "datadog": [
+    "datadog",
+    ".datadog"
+  ],
+  "db": [
+    "db",
+    "database",
+    "sql",
+    "data",
+    "repo",
+    "repository",
+    "repositories",
+    "store",
+    "stores"
+  ],
+  "debian": [
+    "debian",
+    "deb"
+  ],
+  "dependabot": [
+    ".dependabot"
+  ],
+  "devcontainer": [
+    ".devcontainer"
+  ],
+  "dist": [
+    "dist",
+    ".dist",
+    "dists",
+    "out",
+    "outs",
+    "export",
+    "exports",
+    "build",
+    ".build",
+    "builds",
+    "release",
+    "releases",
+    "target",
+    "targets"
+  ],
+  "docker": [
+    "docker",
+    ".docker"
+  ],
+  "docs": [
+    "docs",
+    "doc",
+    "document",
+    "documents"
+  ],
+  "e2e": [
+    "e2e"
+  ],
+  "elasticbeanstalk": [
+    ".elasticbeanstalk",
+    ".ebextensions"
+  ],
+  "electron": [
+    "electron"
+  ],
+  "expo": [
+    ".expo",
+    ".expo-shared"
+  ],
+  "favicon": [
+    "favicon",
+    "favicons"
+  ],
+  "frontcommerce": [
+    ".front-commerce"
+  ],
+  "flow": [
+    "flow",
+    "flow-typed"
+  ],
+  "flutter": [
+    "flutter",
+    "Flutter"
+  ],
+  "fonts": [
+    "fonts",
+    "font",
+    "fnt",
+    "webfonts"
+  ],
+  "gcp": [
+    "gcp",
+    ".gcp"
+  ],
+  "gemini": [
+    ".gemini"
+  ],
+  "git": [
+    ".git",
+    "submodules",
+    ".submodules"
+  ],
+  "github": [
+    ".github"
+  ],
+  "gitlab": [
+    ".gitlab"
+  ],
+  "godot": [
+    "godot",
+    ".godot"
+  ],
+  "gradle": [
+    "gradle",
+    ".gradle"
+  ],
+  "graphql": [
+    "graphql"
+  ],
+  "grunt": [
+    "grunt"
+  ],
+  "gulp": [
+    "gulp",
+    "gulpfile.js",
+    "gulpfile.coffee",
+    "gulpfile.ts",
+    "gulpfile.babel.js",
+    "gulpfile.babel.coffee",
+    "gulpfile.babel.ts"
+  ],
+  "haxelib": [
+    ".haxelib",
+    "haxe_libraries"
+  ],
+  "helper": [
+    "helper",
+    ".helper",
+    "helpers",
+    ".helpers"
+  ],
+  "histoire": [
+    ".histoire"
+  ],
+  "hook": [
+    "hook",
+    ".hook",
+    "hooks",
+    ".hooks"
+  ],
+  "husky": [
+    ".husky"
+  ],
+  "idea": [
+    ".idea"
+  ],
+  "images": [
+    ".fig",
+    ".figs",
+    "images",
+    "image",
+    ".img",
+    "img",
+    ".imgs",
+    "imgs",
+    "icons",
+    "icon",
+    "ico",
+    "screenshot",
+    "screenshots",
+    "svg",
+    "texture",
+    "textures"
+  ],
+  "include": [
+    "include",
+    "includes",
+    "incl",
+    "inc",
+    ".include",
+    ".includes",
+    ".incl",
+    ".inc",
+    "_include",
+    "_includes",
+    "_incl",
+    "_inc"
+  ],
+  "interfaces": [
+    "interface",
+    "interfaces"
+  ],
+  "ios": [
+    "ios"
+  ],
+  "js": [
+    "js"
+  ],
+  "json": [
+    "json"
+  ],
+  "json_official": [
+    "json"
+  ],
+  "junie": [
+    ".junie"
+  ],
+  "kotlin": [
+    "kotlin",
+    "Kotlin",
+    ".kotlin"
+  ],
+  "kubernetes": [
+    "kubernetes",
+    "k8s",
+    "kube",
+    "kuber",
+    ".kubernetes",
+    ".k8s",
+    ".kube",
+    ".kuber"
+  ],
+  "less": [
+    "less",
+    "_less"
+  ],
+  "library": [
+    "lib",
+    "libs",
+    ".lib",
+    ".libs",
+    "__lib__",
+    "__libs__",
+    "library",
+    "libraries"
+  ],
+  "linux": [
+    "linux"
+  ],
+  "locale": [
+    "lang",
+    "language",
+    "languages",
+    "locale",
+    "locales",
+    "_locale",
+    "_locales",
+    "internationalization",
+    "globalization",
+    "localization",
+    "i18n",
+    "g11n",
+    "l10n"
+  ],
+  "log": [
+    "log",
+    "logs"
+  ],
+  "macos": [
+    "macos",
+    "darwin"
+  ],
+  "mariadb": [
+    "mariadb",
+    "maria"
+  ],
+  "maven": [
+    ".mvn"
+  ],
+  "mediawiki": [
+    "mediawiki"
+  ],
+  "memcached": [
+    "memcached",
+    ".memcached"
+  ],
+  "meteor": [
+    ".meteor"
+  ],
+  "middleware": [
+    "middleware",
+    "middlewares"
+  ],
+  "mjml": [
+    "mjml",
+    ".mjml"
+  ],
+  "minecraft": [
+    ".minecraft"
+  ],
+  "minikube": [
+    "minikube",
+    "minik8s",
+    "minikuber"
+  ],
+  "mojo": [
+    "mojo"
+  ],
+  "mock": [
+    "mocks",
+    ".mocks",
+    "__mocks__"
+  ],
+  "model": [
+    "model",
+    ".model",
+    "models",
+    ".models",
+    "entities",
+    ".entities"
+  ],
+  "module": [
+    "modules"
+  ],
+  "mongodb": [
+    "mongodb",
+    "mongo"
+  ],
+  "mypy": [
+    ".mypy_cache"
+  ],
+  "mysql": [
+    "mysqldb",
+    "mysql"
+  ],
+  "netlify": [
+    "netlify"
+  ],
+  "next": [
+    ".next"
+  ],
+  "nginx": [
+    "nginx",
+    "conf.d"
+  ],
+  "nix": [
+    ".niv",
+    ".nix",
+    "nix",
+    "niv"
+  ],
+  "node": [
+    "node_modules"
+  ],
+  "notebooks": [
+    "notebooks",
+    "notebook"
+  ],
+  "notification": [
+    "notification",
+    "notifications",
+    "event",
+    "events"
+  ],
+  "nuget": [
+    ".nuget"
+  ],
+  "package": [
+    "package",
+    "packages",
+    ".package",
+    ".packages",
+    "pkg"
+  ],
+  "paket": [
+    ".paket"
+  ],
+  "php": [
+    "php"
+  ],
+  "platformio": [
+    ".pio",
+    ".pioenvs"
+  ],
+  "plugin": [
+    "plugin",
+    ".plugin",
+    "plugins",
+    ".plugins",
+    "extension",
+    ".extension",
+    "extensions",
+    ".extensions"
+  ],
+  "prisma": [
+    "prisma"
+  ],
+  "private": [
+    "private",
+    ".private"
+  ],
+  "public": [
+    "public",
+    ".public"
+  ],
+  "pytest": [
+    ".pytest_cache"
+  ],
+  "python": [
+    ".venv",
+    ".virtualenv",
+    "__pycache__"
+  ],
+  "vercel": [
+    ".vercel"
+  ],
+  "vitepress": [
+    ".vitepress"
+  ],
+  "redis": [
+    "redis"
+  ],
+  "ravendb": [
+    "ravendb"
+  ],
+  "route": [
+    "route",
+    "routes",
+    "_route",
+    "_routes",
+    "router",
+    "routers"
+  ],
+  "redux": [
+    "redux"
+  ],
+  "nuxt": [
+    "nuxt",
+    ".nuxt"
+  ],
+  "sass": [
+    "sass",
+    "scss",
+    "_sass",
+    "_scss"
+  ],
+  "script": [
+    "script",
+    "scripts"
+  ],
+  "seedkit": [
+    "seedkit",
+    ".seedkit"
+  ],
+  "server": [
+    "server"
+  ],
+  "services": [
+    "service",
+    "services"
+  ],
+  "shared": [
+    "share",
+    "shared",
+    ".share",
+    ".shared",
+    "__shared__",
+    "__share__"
+  ],
+  "snaplet": [
+    ".snaplet"
+  ],
+  "spin": [
+    ".spin"
+  ],
+  "src": [
+    "src",
+    "source",
+    "sources",
+    "__src__"
+  ],
+  "sso": [
+    "sso"
+  ],
+  "story": [
+    "story",
+    "stories",
+    "__stories__",
+    ".storybook"
+  ],
+  "style": [
+    "style",
+    "styles"
+  ],
+  "supabase": [
+    "supabase"
+  ],
+  "svelte": [
+    "svelte",
+    ".svelte-kit"
+  ],
+  "tauri": [
+    "src-tauri"
+  ],
+  "test": [
+    "tests",
+    ".tests",
+    "test",
+    ".test",
+    "__tests__",
+    "__test__",
+    "spec",
+    ".spec",
+    "specs",
+    ".specs",
+    "integration"
+  ],
+  "temp": [
+    "temp",
+    ".temp",
+    "tmp",
+    ".tmp"
+  ],
+  "template": [
+    "template",
+    ".template",
+    "templates",
+    ".templates"
+  ],
+  "theme": [
+    "theme",
+    "themes"
+  ],
+  "travis": [
+    ".travis"
+  ],
+  "tools": [
+    "tool",
+    "tools",
+    ".tools",
+    "util",
+    "utils",
+    "utilities",
+    "tooling"
+  ],
+  "trunk": [
+    ".trunk"
+  ],
+  "turbo": [
+    ".turbo"
+  ],
+  "typescript": [
+    "typescript",
+    "ts"
+  ],
+  "typings": [
+    "typings",
+    "types",
+    "@types"
+  ],
+  "typings2": [
+    "typings",
+    "types",
+    "@types"
+  ],
+  "vagrant": [
+    "vagrant",
+    ".vagrant"
+  ],
+  "video": [
+    "video",
+    ".video",
+    "videos",
+    ".videos"
+  ],
+  "view": [
+    "html",
+    "view",
+    "views",
+    "layout",
+    "layouts",
+    "page",
+    "pages",
+    "_view",
+    "_views",
+    "_layout",
+    "_layouts",
+    "_page",
+    "_pages"
+  ],
+  "vs": [
+    ".vs"
+  ],
+  "vs2": [
+    ".vs"
+  ],
+  "vscode": [
+    ".vscode",
+    "vscode"
+  ],
+  "vscode2": [
+    ".vscode",
+    "vscode"
+  ],
+  "vscode3": [
+    ".vscode",
+    "vscode"
+  ],
+  "vscode_test": [
+    ".vscode-test"
+  ],
+  "vscode_test2": [
+    ".vscode-test"
+  ],
+  "vscode_test3": [
+    ".vscode-test"
+  ],
+  "wasm": [
+    "wasm",
+    "WASM",
+    "webassembly",
+    "WebAssembly"
+  ],
+  "wit": [
+    "wit"
+  ],
+  "webpack": [
+    "webpack",
+    ".webpack"
+  ],
+  "windows": [
+    "windows",
+    "win32"
+  ],
+  "windsurf": [
+    ".windsurf"
+  ],
+  "www": [
+    ".web",
+    "www",
+    "wwwroot",
+    "web"
+  ],
+  "yarn": [
+    ".yarn"
+  ],
+  "zed": [
+    ".zed"
+  ]
+}
