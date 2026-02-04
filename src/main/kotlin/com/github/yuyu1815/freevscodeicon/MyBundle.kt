@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.yuyu1815.freevscodeicon
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
