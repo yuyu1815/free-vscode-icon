@@ -13,5 +13,6 @@
                            id="iconThemeSettings" 
                            displayName="Icon Theme Settings"
                            instance="com.github.yuyu1815.vscodeallinoneicon.IconThemeConfigurable"/>
+        <projectViewNodeDecorator implementation="com.github.yuyu1815.vscodeallinoneicon.VscordProjectViewNodeDecorator"/>
     </extensions>
 </idea-plugin>
