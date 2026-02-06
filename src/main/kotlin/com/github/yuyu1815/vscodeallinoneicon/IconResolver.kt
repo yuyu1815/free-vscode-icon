@@ -79,12 +79,17 @@ object IconResolver {
         val patternParts = pattern.split("/")
         val pathParts = path.split("/").filter { it.isNotEmpty() }
         
-        return matchParts(patternParts, pathParts)
+        return matchParts(patternParts, 0, pathParts, 0)
     }
 
-    private fun matchParts(patternParts: List<String>, pathParts: List<String>): Boolean {
-        var pi = 0  // pattern index
-        var ti = 0  // target path index
+    private fun matchParts(
+        patternParts: List<String>, 
+        patternIndex: Int, 
+        pathParts: List<String>, 
+        pathIndex: Int
+    ): Boolean {
+        var pi = patternIndex
+        var ti = pathIndex
 
         while (pi < patternParts.size && ti < pathParts.size) {
             val pattern = patternParts[pi]
@@ -94,14 +99,16 @@ object IconResolver {
                 pattern == "**" -> {
                     // ** can match zero or more segments
                     // Try matching remaining pattern with current and all subsequent positions
-                    val remainingPattern = patternParts.drop(pi + 1)
-                    if (remainingPattern.isEmpty()) {
-                        return true  // ** at end matches everything
+                    
+                    // If ** is the last part, it matches everything
+                    if (pi + 1 == patternParts.size) {
+                        return true
                     }
                     
-                    // Try matching from current position onwards
+                    // Try matching from current position onwards using recursion with indices
+                    // We need to match the REST of the pattern against any suffix of pathParts
                     for (i in ti..pathParts.size) {
-                        if (matchParts(remainingPattern, pathParts.drop(i))) {
+                        if (matchParts(patternParts, pi + 1, pathParts, i)) {
                             return true
                         }
                     }
@@ -158,10 +165,8 @@ object IconResolver {
         }
 
         // Fallback to regex for complex patterns (e.g. *foo*bar)
-        // Convert glob pattern to regex
-        val regex = pattern
-            .replace(".", "\\.")
-            .replace("*", ".*")
+        // Convert glob pattern to regex safely by escaping non-wildcard chars
+        val regex = Regex.escape(pattern).replace("\\*", ".*")
         
         return Regex("^$regex$").matches(target)
     }

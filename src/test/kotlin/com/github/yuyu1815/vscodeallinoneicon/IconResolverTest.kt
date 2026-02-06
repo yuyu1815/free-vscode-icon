@@ -242,4 +242,28 @@ class IconResolverTest : BasePlatformTestCase() {
         // Assert
         assertFalse("Should not match different path", result)
     }
+
+    fun testGlobPatternWithSpecialCharacters() {
+        // Arrange
+        val pattern = "build/lib+(v1.0)"
+        val path = "build/lib+(v1.0)"
+
+        // Act
+        val result = IconResolver.matchGlobPattern(pattern, path)
+
+        // Assert
+        assertTrue("Should match special characters exactly", result)
+    }
+
+    fun testGlobPatternWithSpecialCharactersAndWildcard() {
+        // Arrange
+        val pattern = "api/*/endpoint[v1]?"
+        val path = "api/rest/endpoint[v1]?"
+
+        // Act
+        val result = IconResolver.matchGlobPattern(pattern, path)
+
+        // Assert
+        assertTrue("Should match special characters mixed with wildcard", result)
+    }
 }
