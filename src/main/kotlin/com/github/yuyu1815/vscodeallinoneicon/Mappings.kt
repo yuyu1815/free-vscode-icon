@@ -15,6 +15,11 @@ data class ContextRule(
     val description: String = ""
 ) {
     /**
+     * Pre-computed lowercase pattern for optimized case-insensitive matching
+     */
+    val patternLower: String = pattern.lowercase()
+
+    /**
      * Convert theme string to IconTheme enum
      */
     fun getIconTheme(): IconTheme = try {

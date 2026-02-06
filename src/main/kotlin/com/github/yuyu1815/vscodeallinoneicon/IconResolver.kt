@@ -61,7 +61,7 @@ object IconResolver {
         val normalizedPath = path.replace("\\", "/").lowercase()
         
         for (rule in Mappings.contextRules) {
-            if (matchGlobPattern(rule.pattern.lowercase(), normalizedPath)) {
+            if (matchGlobPattern(rule.patternLower, normalizedPath)) {
                 return IconResolutionResult(rule.icon, rule.getIconTheme())
             }
         }

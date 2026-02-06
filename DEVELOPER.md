@@ -26,6 +26,14 @@ Edit `src/main/resources/settings/context_rules.json`:
 | `*`     | Single segment wildcard | `src/*/config` matches `src/main/config`          |
 | `**`    | Multi-segment wildcard  | `test/**/utils` matches `test/unit/helpers/utils` |
 | `*_tmp` | Suffix wildcard         | `cache/*_tmp` matches `cache/build_tmp`           |
+| `pre*`  | Prefix wildcard         | `build/pre*` matches `build/pre_build`            |
+
+## Matching Rules
+
+1. **Priority**: Rules are evaluated in order. The first matching rule determines the icon.
+2. **Case Insensitivity**: Patterns and paths are matched case-insensitively.
+3. **Path Normalization**: All paths use forward slashes (`/`). Windows backslashes are automatically converted.
+4. **Context**: Matching is performed against the file/folder's path relative to the project root.
 
 ## Available Themes
 
