@@ -3,7 +3,8 @@ package com.github.yuyu1815.vscodeallinoneicon
 import com.intellij.ide.projectView.PresentationData
 import com.intellij.ide.projectView.ProjectViewNode
 import com.intellij.ide.projectView.ProjectViewNodeDecorator
-import com.intellij.openapi.project.Project
+import com.intellij.packageDependencies.ui.PackageDependenciesNode
+import com.intellij.ui.ColoredTreeCellRenderer
 
 class VscordProjectViewNodeDecorator : ProjectViewNodeDecorator {
     override fun decorate(node: ProjectViewNode<*>, data: PresentationData) {
@@ -34,5 +35,11 @@ class VscordProjectViewNodeDecorator : ProjectViewNodeDecorator {
                 data.setIcon(icon)
             }
         }
+    }
+
+    @Deprecated("This method is deprecated and never called by the platform")
+    @Suppress("DEPRECATION")
+    override fun decorate(node: PackageDependenciesNode?, cellRenderer: ColoredTreeCellRenderer?) {
+        // No-op: This method is deprecated and never called by the platform
     }
 }
