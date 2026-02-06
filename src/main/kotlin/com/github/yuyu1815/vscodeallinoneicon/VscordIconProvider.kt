@@ -32,43 +32,45 @@ class VscordIconProvider : FileIconProvider {
         }
     }
 
-    private fun loadIcon(name: String, isFolder: Boolean, theme: IconTheme): Icon? {
-        // Material theme mappings include the prefix (e.g., "folder-src")
-        // VSCode theme mappings don't include prefix (e.g., "src")
-        // File Icons theme uses font-based icons (not SVG files)
-        val iconFileName = when (theme) {
-            IconTheme.MATERIAL_ICONS -> name  // Use name from mapping as-is
-            IconTheme.VSCODE_ICONS -> {
-                // Add prefix for VSCode theme only
-                val prefix = if (isFolder) "folder_type_" else "file_type_"
-                "$prefix$name"
+    companion object {
+        fun loadIcon(name: String, isFolder: Boolean, theme: IconTheme): Icon? {
+            // Material theme mappings include the prefix (e.g., "folder-src")
+            // VSCode theme mappings don't include prefix (e.g., "src")
+            // File Icons theme uses font-based icons (not SVG files)
+            val iconFileName = when (theme) {
+                IconTheme.MATERIAL_ICONS -> name  // Use name from mapping as-is
+                IconTheme.VSCODE_ICONS -> {
+                    // Add prefix for VSCode theme only
+                    val prefix = if (isFolder) "folder_type_" else "file_type_"
+                    "$prefix$name"
+                }
+                IconTheme.FILE_ICONS -> name  // Use name from mapping as-is (SVG files)
             }
-            IconTheme.FILE_ICONS -> name  // Use name from mapping as-is (SVG files)
-        }
 
-        val themePrefix = when (theme) {
-            IconTheme.VSCODE_ICONS -> "vscode/"
-            IconTheme.MATERIAL_ICONS -> "material/"
-            IconTheme.FILE_ICONS -> "file-icons/"
-        }
-        val path = "/icons/${themePrefix}$iconFileName.svg"
-        val icon = IconLoader.findIcon(path, VscordIconProvider::class.java)
+            val themePrefix = when (theme) {
+                IconTheme.VSCODE_ICONS -> "vscode/"
+                IconTheme.MATERIAL_ICONS -> "material/"
+                IconTheme.FILE_ICONS -> "file-icons/"
+            }
+            val path = "/icons/${themePrefix}$iconFileName.svg"
+            val icon = IconLoader.findIcon(path, VscordIconProvider::class.java)
 
-        // Log if icon file is not found (helps with debugging)
-        if (icon == null) {
-            println("[VscordIconProvider] Icon not found: $path (isFolder=$isFolder, theme=$theme)")
-        }
+            // Log if icon file is not found (helps with debugging)
+            if (icon == null) {
+                println("[VscordIconProvider] Icon not found: $path (isFolder=$isFolder, theme=$theme)")
+            }
 
-        // Scale icon based on theme
-        // File Icons are typically smaller (14px), others are standard 16px
-        val targetSize = if (theme == IconTheme.FILE_ICONS) 14 else 16
-        
-        return icon?.let {
-            if (it.iconWidth != targetSize || it.iconHeight != targetSize) {
-                val scale = targetSize.toFloat() / maxOf(it.iconWidth, it.iconHeight)
-                com.intellij.util.IconUtil.scale(it, null, scale)
-            } else {
-                it
+            // Scale icon based on theme
+            // File Icons are typically smaller (14px), others are standard 16px
+            val targetSize = if (theme == IconTheme.FILE_ICONS) 14 else 16
+            
+            return icon?.let {
+                if (it.iconWidth != targetSize || it.iconHeight != targetSize) {
+                    val scale = targetSize.toFloat() / maxOf(it.iconWidth, it.iconHeight)
+                    com.intellij.util.IconUtil.scale(it, null, scale)
+                } else {
+                    it
+                }
             }
         }
     }

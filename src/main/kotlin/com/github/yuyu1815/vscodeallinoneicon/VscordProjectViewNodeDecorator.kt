@@ -1,0 +1,38 @@
+package com.github.yuyu1815.vscodeallinoneicon
+
+import com.intellij.ide.projectView.PresentationData
+import com.intellij.ide.projectView.ProjectViewNode
+import com.intellij.ide.projectView.ProjectViewNodeDecorator
+import com.intellij.openapi.project.Project
+
+class VscordProjectViewNodeDecorator : ProjectViewNodeDecorator {
+    override fun decorate(node: ProjectViewNode<*>, data: PresentationData) {
+        // Only process if the node represents a VirtualFile
+        val file = node.virtualFile ?: return
+        
+        // We only care about directories for now (as files are generally handled well by FileIconProvider)
+        // But ProjectViewNodeDecorator could technically handle both. 
+        // Let's stick to directories as requested for "build", "dist", etc.
+        if (!file.isDirectory) return
+
+        val config = IconThemeConfig.getInstance()
+        if (!config.isEnabled()) return
+
+        // Set active themes for resolution
+        val activeThemes = config.getActiveThemes()
+        IconResolver.setThemes(activeThemes)
+
+        // Resolve icon
+        val result = IconResolver.resolveIconName(file.name, true)
+        
+        if (result != null) {
+            // Force load the icon
+            val icon = VscordIconProvider.loadIcon(result.iconName, true, result.theme)
+            if (icon != null) {
+                // Apply the icon to the PresentationData
+                // This overrides the default icon (including the orange excluded folder icon)
+                data.setIcon(icon)
+            }
+        }
+    }
+}

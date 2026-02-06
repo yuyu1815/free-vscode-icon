@@ -4,6 +4,14 @@
 
 ## [Unreleased]
 
+## [0.0.3] - 2026-02-05
+
+### Added
+
+- **Excluded Folder Icon Support**
+  - Implemented `ProjectViewNodeDecorator` to override default IntelliJ icons for excluded folders (e.g., `build`, `dist`).
+  - Ensures plugin theme icons are applied even when folders are marked as excluded or output paths.
+
 ### Added
 
 - **Theme Priority System**

@@ -71,6 +71,19 @@ class IconResolverTest : BasePlatformTestCase() {
         assertEquals(IconTheme.VSCODE_ICONS, result?.theme)
     }
 
+    fun testResolveBuildFolderIconInVSCodeTheme() {
+        // Arrange
+        val folderName = "build"
+        val isDirectory = true
+        
+        // Act
+        val result = IconResolver.resolveIconName(folderName, isDirectory)
+
+        // Assert
+        assertEquals("dist", result?.iconName)
+        assertEquals(IconTheme.VSCODE_ICONS, result?.theme)
+    }
+
     // --- Material Theme Tests ---
 
     fun testResolveFileIconInMaterialTheme() {
